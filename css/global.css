@@ -32,9 +32,28 @@ img {
 
 /* Fim dos Resets */
 
+/* Containers e formas */
+
 .container {
 	max-width: 1200px;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
+}
+
+.retangulo-amarelo {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to top, transparent 0%, var(--amarelo-fonte) 50%);
+    position: absolute;
+}
+
+/* Fim dos containers e formas */
+
+/* Estilização das fontes */
+
+.titulo-grande {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: '900';
+    font-size: 3.5rem;
 }

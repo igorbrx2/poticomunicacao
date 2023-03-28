@@ -12,8 +12,8 @@
 }
 
 #manifesto h1 {
-    font-weight: bold;
-    font-size: 3.5rem;
+    line-height: 1.1;
+    color: var(--cinza-titulo-grande);
 }
 
 
@@ -28,7 +28,8 @@
     gap: 90px;
     padding-top: 30px;
     margin: 0 auto;
-    padding-bottom: 340px;
+    padding-bottom: 360px;
+    position: relative;
 }
 
 
@@ -40,4 +41,3 @@
 .divisao {
     color: var(--preto-puro);
 }
-
