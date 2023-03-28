@@ -1,0 +1,14 @@
+:root {
+
+--cinza-escuro-principal: #191919;
+--cinza-bg: #2e2e2e;
+--cinza-fonte: #808080;
+--branco-puro: #ffffff;
+--branco2: #eeeeee;
+--preto-puro: #000000;
+--amarelo-fonte: #ffdd00;
+}
+
+.amarelo-fonte {
+    color: var(--amarelo-fonte);
+}

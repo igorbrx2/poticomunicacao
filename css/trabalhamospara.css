@@ -1,0 +1,38 @@
+.trabalhamospara-bg {
+    background-color: var(--cinza-escuro-principal);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: var(--branco-puro);
+}
+
+.trabalhamospara-bg h1 {
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.clientes {
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.clientes img {
+    display: block;
+    width: 280px;
+    height: 280px;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 930px) {
+
+    .clientes {
+        overflow-x: auto;
+    }
+
+}
+
+
