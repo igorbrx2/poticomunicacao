@@ -1,0 +1,43 @@
+
+#manifesto {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--cinza-bg2);
+    background-image: url(../IMG/menino-tanque.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#manifesto h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+
+.containerdomanifesto {
+    display: grid;
+}
+
+.historiamanifesto {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--cinza-fonte);
+    gap: 90px;
+    padding-top: 30px;
+    margin: 0 auto;
+    padding-bottom: 340px;
+}
+
+
+.historiamanifesto p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.divisao {
+    color: var(--preto-puro);
+}
+
