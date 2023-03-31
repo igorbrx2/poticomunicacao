@@ -1,6 +1,9 @@
 body {
     background-color: var(--cinza-bg2);
 }
+
+/* ESTILIZAÇAO DO MANIFESTO */
+
 #manifesto {
     height: 800px;
     display: grid;
@@ -17,7 +20,7 @@ body {
 #manifesto h1 {
     line-height: 1.1;
     color: var(--cinza-titulo-grande);
-    z-index: 11;
+    z-index: 2;
 }
 
 #manifesto .retangulo-cinza {
@@ -39,7 +42,7 @@ body {
     margin: 0 auto;
     padding-bottom: 530px;
     position: relative;
-    z-index: 11;
+    z-index: 2;
 }
 
 .historiamanifesto p {
@@ -62,7 +65,7 @@ body {
     color: var(--preto-puro);
 }
 
-#linhavertical {
+.linhavertical {
     height: 100%;
     border-right: 7px dashed var(--amarelo-fonte);
     grid-column: 2;
@@ -78,8 +81,43 @@ body {
 }
 
 .corpo-manifesto p {
+    font-size: 1.2rem;
     grid-column: 3;
     padding-bottom: 10px;
     max-width: 30ch;
     justify-self: center;
 }
+
+.corpo-manifesto h2 {
+    text-align: end;
+    font-weight: bold;
+    color: var(--cinza-titulo-grande);
+}
+
+/* ESTILIZACAO DA HISTORIA */
+
+.corpo-historia {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#p2015 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+}
+
+#p2015 img {
+    display: block;
+    height: 400px;
+}
+
+#p2015 img, h3, p {
+    grid-column: 3;
+}
+#p2015 .linhavertical {
+    grid: 2;
+}
+
+
