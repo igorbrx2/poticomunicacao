@@ -96,16 +96,17 @@ body {
 
 /* ESTILIZACAO DA HISTORIA */
 
-.corpo-historia {
-    display: grid;
-    grid-template-columns: 1fr;
-}
 
 #p2015 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    justify-content: center;
+}
+
+#p2015 h2 {
+    margin-right: 50px;
+    grid-column: 2;
+    color: var(--cinza-titulo-grande);
 }
 
 #p2015 img {
@@ -116,6 +117,13 @@ body {
 #p2015 img, h3, p {
     grid-column: 3;
 }
+
+#p2015 p {
+    max-width: 30ch;
+    justify-self:left
+
+}
+
 #p2015 .linhavertical {
     grid: 2;
 }
