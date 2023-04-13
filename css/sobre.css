@@ -96,8 +96,10 @@ body {
 
 /* ESTILIZACAO DA HISTORIA */
 
+/* 2015 */
 
 #p2015 {
+   /* height: 500px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -116,6 +118,7 @@ body {
 
 #p2015 img, h3, p {
     grid-column: 3;
+    padding-bottom: 20px;
 }
 
 #p2015 p {
@@ -126,6 +129,58 @@ body {
 
 #p2015 .linhavertical {
     grid: 2;
+    height: 100%;
 }
+
+#p2015 h3 {
+    padding-top: 30px;
+    font-weight: bold;
+    color: var(--cinza-titulo-grande);
+}
+
+/* 2016 */
+
+#p2016 {
+    /* height: 500px; */
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     justify-items: center;
+     align-items: center;
+ }
+ 
+ #p2016 h2 {
+     margin-left: 22px;
+     grid-column: 2;
+     color: var(--cinza-titulo-grande);
+ }
+ 
+ 
+ #p2016 h3, p {
+     grid-column: 3;
+     padding-bottom: 20px;
+ }
+ 
+ #p2016 p {
+     max-width: 30ch;
+     justify-self:left
+ 
+ }
+ 
+ #p2016 .linhavertical {
+     grid: 2;
+     height: 100%;
+ }
+ 
+ #p2016 h3 {
+     padding-top: 30px;
+     font-weight: bold;
+     color: var(--cinza-titulo-grande);
+ }
+
+ .conteudo-2016 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 

@@ -1,0 +1,35 @@
+.integrante img {
+    max-width: 250px;
+}
+
+.integrante h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--cinza-titulo-grande);
+}
+
+.integrante p {
+    max-width: 250px;
+}
+
+.integrante img, h2, p {
+    padding-bottom: 12px;
+}
+
+#equipe-integrantes {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#equipe h1 {
+    padding-left: 51px;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+#equipe {
+    margin-top: 70px;
+}
