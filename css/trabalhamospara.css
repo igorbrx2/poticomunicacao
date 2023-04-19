@@ -10,17 +10,27 @@ padding-top: 40px;
 padding-bottom: 40px;
 }
 
-.clientes {
+#clientes {
     display: flex;
+    flex-wrap: nowrap;
     overflow-x: auto;
-    justify-content: center;
+    overflow-y: hidden;
     max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-    gap: 10px;
+    height: 290px;
 }
 
-.clientes img {
+#clientes::-webkit-scrollbar {
+    height: 8px;
+    border-radius: 5px;
+    background-color: var(--cinza-titulo-grande);
+}
+
+#clientes::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--cinza-fonte);
+}
+
+.cliente a {
     display: block;
     width: 280px;
     height: 280px;
@@ -29,7 +39,7 @@ padding-bottom: 40px;
 
 @media (max-width: 930px) {
 
-    .clientes {
+    #clientes {
         overflow-x: auto;
     }
 
