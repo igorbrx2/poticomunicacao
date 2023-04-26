@@ -8,18 +8,20 @@
 
 #textointro {
     position: absolute;
-    top: 250px;
-    right: 800px;
+    top: 200px;
+    right: 730px;
 }
 
 #textointro h1 {
-    font-size: 3rem;
+    font-size: 4.5rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #textointro p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-left: 5px;
 }
 
 .banners {
