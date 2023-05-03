@@ -1,3 +1,8 @@
+body {
+    background-color: var(--cinza-bg2);
+    height: 1000px;
+}
+
 .integrante img {
     max-width: 250px;
 }

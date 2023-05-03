@@ -1,5 +1,5 @@
 body {
-    background-color: var(--cinza-escuro-principal);
+    background-color: var(--preto-puro);
 }
 
 /* MENU */
@@ -16,7 +16,7 @@ max-width: 1400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: var(--cinza-fonte);
+    color: var(--cinza-titulo-grande);
     gap: 30px;
     padding-top: 30px;
     margin: 0 auto;
@@ -46,7 +46,35 @@ max-width: 1400px;
 }
 
 .categoria-portfolio h1 {
+    width: 465px;
     color: var(--branco2);
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 1.3rem;
+    background-color: var(--cinza-escuro-principal);
+    padding: 4px;
 }
+
+.item-categoria-portfolio img {
+display: block;
+width: 300px;
+}
+
+.item-categoria-portfolio p {
+    color: var(--branco2);
+    margin-top: 8px;
+}
+
+/* CSS CAMPANHAS  */
+
+#campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 8px;
+    margin-top: 8px;
+    margin-bottom: 70px;
+   }
+
+
