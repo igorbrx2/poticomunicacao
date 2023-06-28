@@ -3,13 +3,11 @@
     height: 100vh;
     background-image: url(../IMG/introducaoimagem.jpg);
     background-size: cover;
-    position: relative;
 }
 
 #textointro {
-    position: absolute;
-    top: 200px;
-    right: 730px;
+padding-top: 180px;
+padding-left: 100px;
 }
 
 #textointro h1 {
@@ -44,6 +42,7 @@
 .banners a:hover {
     color: var(--cinza-fonte);
 }
+
 
 @media (min-width: 992px) {
 

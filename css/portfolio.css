@@ -15,6 +15,7 @@ max-width: 1400px;
 #menu-portfolio {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
     justify-content: center;
     color: var(--cinza-titulo-grande);
     gap: 30px;
