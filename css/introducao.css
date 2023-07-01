@@ -8,7 +8,7 @@
 
 
 
-/* #texto-intro {
+#texto-intro {
     margin-top: 190px;
     margin-left: 50px;
     color: var(--amarelo-fonte);
@@ -17,7 +17,7 @@
     font-weight: 600;
   }
 
-#textointro {
+/* #textointro {
     margin: auto;
     padding: 20px;
     background-color: var(--cinza-escuro-principal);
