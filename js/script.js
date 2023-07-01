@@ -16,7 +16,7 @@ btnMobile.addEventListener('click', toggleMenu);
 // Texto Introdução
 
 
-var string = "Assessoria de comunicação, gestão de redes, transmissões ao vivo e web design."; /* type your text here */
+var string = "Assessoria de comunicação e produção de conteúdo."; /* type your text here */
 var array = string.split("");
 var timer;
 
