@@ -175,5 +175,64 @@ body {
     grid-column: 2;
 }
 
+/* 2020 */
+
+#p2020 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    max-width: 1200px;
+    margin-left: 380px;
+    gap: 5px;
+}
+
+#p2020 p {
+    max-width: 30ch;
+    font-size: 1.2rem;
+}
+
+#p2020 h3 {
+    color: var(--cinza-titulo-grande);
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+#p2020 h3, p {
+    grid-column: 3;
+}
+
+#p2020 .linhavertical {
+    grid-column: 2;
+}
+
+/* 2021 */
+
+#p2021 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    max-width: 1200px;
+    margin-left: 380px;
+    gap: 5px;
+}
+
+#p2021 p {
+    max-width: 30ch;
+    font-size: 1.2rem;
+}
+
+#p2021 h3 {
+    color: var(--cinza-titulo-grande);
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+#p2021 h3, p {
+    grid-column: 3;
+}
+
+#p2021 .linhavertical {
+    grid-column: 2;
+}
 
 
