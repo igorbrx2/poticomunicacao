@@ -8,36 +8,11 @@ body {
 max-width: 1400px;
 }
 
-.retangulo-amarelo {
-    background-image: linear-gradient(to top, transparent 0%, var(--amarelo-fonte) 70%);
-}
+/* TITULO  */
 
-#menu-portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    color: var(--cinza-titulo-grande);
-    gap: 30px;
-    padding-top: 30px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-}
-
-#menu-portfolio a {
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-#menu-portfolio a:hover {
-    color: var(--preto-puro);
-}
-
-#menu-portfolio p {
-    font-size: 1.2rem;
-    font-weight: bold;
+.nosso-portfolio {
+margin-top: 80px;
+color: var(--amarelo-fonte);
 }
 
 /* CATEGORIAS */
@@ -78,4 +53,6 @@ width: 300px;
     margin-bottom: 70px;
    }
 
-
+a:hover {
+    opacity: 0.8;
+}
