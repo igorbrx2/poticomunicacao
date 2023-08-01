@@ -1,11 +1,11 @@
 body {
-    background-color: var(--cinza-bg2);
+    background-color: var(--cinza-bg2);;
 }
 
 /* ESTILIZAÇAO DO MANIFESTO */
 
 #manifesto {
-    height: 800px;
+    height: 50rem;
     display: grid;
     justify-content: center;
     text-align: center;
@@ -25,7 +25,7 @@ body {
 
 #manifesto .retangulo-cinza {
     align-self: end;
-    height: 300px;
+    height: 18.75rem;
 }
 
 
@@ -65,174 +65,170 @@ body {
     color: var(--preto-puro);
 }
 
+/* CORPO */
+
 .corpo-manifesto {
-    background-color: var(--cinza-bg2);
-    margin-top: 120px;
+    height: 640px;
+    margin-top: 2.5rem;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: 25rem 1.25rem 25rem;
+    grid-template-areas: 
+    "ano linha paragrafo";
+    gap: 50px;
+    justify-content: center;
 }
 
 .corpo-manifesto p {
-    font-size: 1.2rem;
-    grid-column: 3;
-    padding-bottom: 10px;
-    max-width: 30ch;
-}
-
-.linhavertical {
-    height: 100%;
-    border-right: 7px dashed var(--amarelo-fonte);
-    grid-column: 2;
-    justify-self: center;
+    grid-area: paragrafo;
 }
 
 .corpo-manifesto h2 {
+    grid-area: ano;
     text-align: end;
     font-weight: bold;
     color: var(--cinza-titulo-grande);
 }
 
-/* ESTILIZACAO DA HISTORIA */
-
 /* 2015 */
 
-
-.corpo-2015 h2 {
-    text-align: center;
-    color: var(--cinza-titulo-grande);
-    font-size: 5rem;
-}
-
-
-#p2015 {
+.ano2015 {
+    height: 640px;
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    max-width: 1200px;
-    margin-left: 416px;
-    gap: 5px;
+    grid-template-columns: 25rem 1.25rem 25rem;
+    grid-template-areas: 
+    "ano linha paragrafo";
+    gap: 50px;
+    justify-content: center;
 }
 
-#p2015 img {
-    display: block;
-    width: 400px;
-}
-
-#p2015 p {
-    max-width: 30ch;
-    font-size: 1.2rem;
-}
-
-#p2015 h3 {
+.ano2015 h1 {
+    grid-area: ano;
+    text-align: end;
     color: var(--cinza-titulo-grande);
+}
+
+.ano2015 h2 {
+    margin-top: 10px;
+    grid-area: paragrafo;
+    grid-row: 1;
+    text-align: start;
     font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 2rem;
+    color: var(--cinza-titulo-grande);
 }
 
-#p2015 img, h3, p {
-    grid-column: 3;
+.ano2015 p {
+    grid-area: paragrafo;
+    margin-top: 70px;
 }
 
-#p2015 .linhavertical {
-    grid-column: 2;
+.ano2015 img {
+    grid-area: paragrafo;
+    margin-top: 200px;
+
 }
 
 /* 2016 */
 
-.corpo-2015 h2 {
-    margin-top: 30px;
-    text-align: center;
-    color: var(--cinza-titulo-grande);
-    font-size: 5rem;
-}
-
-
-#p2016 {
+.ano2016 {
+    height: 250px;
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    max-width: 1200px;
-    margin-left: 380px;
-    gap: 5px;
+    grid-template-columns: 25rem 1.25rem 25rem;
+    grid-template-areas: 
+    "ano linha paragrafo";
+    gap: 50px;
+    justify-content: center;
 }
 
-#p2016 p {
-    max-width: 30ch;
-    font-size: 1.2rem;
-}
-
-#p2016 h3 {
+.ano2016 h1 {
+    grid-area: ano;
+    text-align: end;
     color: var(--cinza-titulo-grande);
+}
+
+.ano2016 h2 {
+    margin-top: 10px;
+    grid-area: paragrafo;
+    grid-row: 1;
+    text-align: start;
     font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 2rem;
+    color: var(--cinza-titulo-grande);
 }
 
-#p2016 h3, p {
-    grid-column: 3;
-}
-
-#p2016 .linhavertical {
-    grid-column: 2;
+.ano2016 p {
+    grid-area: paragrafo;
+    margin-top: 70px;
 }
 
 /* 2020 */
 
-#p2020 {
+.ano2020 {
+    height: 360px;
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    max-width: 1200px;
-    margin-left: 380px;
-    gap: 5px;
+    grid-template-columns: 25rem 1.25rem 25rem;
+    grid-template-areas: 
+    "ano linha paragrafo";
+    gap: 50px;
+    justify-content: center;
 }
 
-#p2020 p {
-    max-width: 30ch;
-    font-size: 1.2rem;
-}
-
-#p2020 h3 {
+.ano2020 h1 {
+    grid-area: ano;
+    text-align: end;
     color: var(--cinza-titulo-grande);
+}
+
+.ano2020 h2 {
+    margin-top: 10px;
+    grid-area: paragrafo;
+    grid-row: 1;
+    text-align: start;
     font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 2rem;
+    color: var(--cinza-titulo-grande);
 }
 
-#p2020 h3, p {
-    grid-column: 3;
+.ano2020 p {
+    grid-area: paragrafo;
+    margin-top: 70px;
 }
 
-#p2020 .linhavertical {
-    grid-column: 2;
-}
+/* 2022 */
 
-/* 2021 */
-
-#p2021 {
+.ano2022 {
+    height: 300px;
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    max-width: 1200px;
-    margin-left: 380px;
-    gap: 5px;
+    grid-template-columns: 25rem 1.25rem 25rem;
+    grid-template-areas: 
+    "ano linha paragrafo";
+    gap: 50px;
+    justify-content: center;
 }
 
-#p2021 p {
-    max-width: 30ch;
-    font-size: 1.2rem;
-}
-
-#p2021 h3 {
+.ano2022 h1 {
+    grid-area: ano;
+    text-align: end;
     color: var(--cinza-titulo-grande);
+}
+
+.ano2022 h2 {
+    margin-top: 10px;
+    grid-area: paragrafo;
+    grid-row: 1;
+    text-align: start;
     font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 2rem;
+    color: var(--cinza-titulo-grande);
 }
 
-#p2021 h3, p {
-    grid-column: 3;
+.ano2022 p {
+    grid-area: paragrafo;
+    margin-top: 70px;
 }
 
-#p2021 .linhavertical {
-    grid-column: 2;
+.ano2022 a {
+    font-weight: bold;
+}
+
+.ano2022 .linhavertical {
+    height: 300px;
 }
 
 
