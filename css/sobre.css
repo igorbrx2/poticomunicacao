@@ -2,6 +2,10 @@ body {
     background-color: var(--cinza-bg2);;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ESTILIZAÇAO DO MANIFESTO */
 
 #manifesto {
