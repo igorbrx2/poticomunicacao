@@ -15,6 +15,13 @@ margin-top: 80px;
 color: var(--amarelo-fonte);
 }
 
+.subtitulo-portfolio {
+    color: var(--amarelo-fonte);
+    margin-left: 85px;
+    font-size: 1.3rem;
+    font-style: oblique;
+}
+
 /* CATEGORIAS */
 
 .container-portfolio {
@@ -37,6 +44,7 @@ width: 300px;
 
 .item-categoria-portfolio p {
     color: var(--branco2);
+    max-width: 300px;
     margin-top: 8px;
 }
 
