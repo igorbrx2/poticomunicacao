@@ -17,7 +17,6 @@ color: var(--amarelo-fonte);
 
 .subtitulo-portfolio {
     color: var(--amarelo-fonte);
-    margin-left: 85px;
     font-size: 1.3rem;
     font-style: oblique;
 }
