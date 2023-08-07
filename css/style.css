@@ -116,24 +116,7 @@
     font-weight: 600;
   }
 
-/* #textointro {
-    margin: auto;
-    padding: 20px;
-    background-color: var(--cinza-escuro-principal);
-}
-
-#textointro h1 {
-    text-align: center;
-    font-size: 5.5rem;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#textointro p {
-    font-size: 1.7rem;
-    font-weight: 600;
-    margin-left: 5px;
-} */
+/* O QUE FAZEMOS */
 
 #oquefazemos-container {
     height: 250px;
@@ -158,7 +141,11 @@
 
 #oquefazemos {
     display: flex;
+    max-width: 1200px;
     box-sizing: border-box;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
     align-content: center;
     justify-content:  space-evenly;
 
