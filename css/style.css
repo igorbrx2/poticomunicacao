@@ -1,12 +1,6 @@
+/* CORES */
+
 @import url(./cores.css);
-
-/* Estrutura */
-
-@import url(./header.css);
-@import url(./introducao.css);
-@import url(./trabalhamospara.css);
-@import url(./oquefalaram.css);
-@import url(./footer.css);
 
 /* Sobre */
 
@@ -21,3 +15,341 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+/* ESTRUTURA */
+
+/* Header */
+
+.header-bg {
+    background-color: var(--cinza-escuro-principal);
+}
+
+#logo {
+    display: block;
+    width: 200px;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 10px;
+    color: var(--cinza-fonte);
+    font-size: 1.3rem;
+}
+
+#menu a:hover {
+    color: var(--amarelo-fonte);
+    text-decoration: none;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+@media (max-width: 680px) {
+
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        z-index: 1000;
+        transition: .6s;
+        top: 38px;
+        right: 0px;
+        background-color: var(--cinza-escuro-principal);
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu li {
+        padding: .75rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .5);
+    }
+
+    #btn-mobile {
+        display: block;
+        height: 50px;
+        width: 50px;
+        margin-right: 20px;
+        background: none;
+        border: none;
+    }
+
+}
+
+/* FIM DO HEADER  */
+
+/* INTRODUÇÃO */
+
+#introducao {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../IMG/introducaoimagem.jpg);
+    background-size: cover;
+}
+
+
+
+#texto-intro {
+    margin-top: 200px;
+    margin-left: 50px;
+    color: var(--amarelo-fonte);
+    max-width: 45vw;
+    font-size: 2.7vw;
+    font-weight: 600;
+  }
+
+/* #textointro {
+    margin: auto;
+    padding: 20px;
+    background-color: var(--cinza-escuro-principal);
+}
+
+#textointro h1 {
+    text-align: center;
+    font-size: 5.5rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#textointro p {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-left: 5px;
+} */
+
+#oquefazemos-container {
+    height: 250px;
+    background-color: var(--cinza-bg);
+    margin-top: 45px;
+    font-size: 1.2rem;
+    z-index: 1000;
+}
+
+#oquefazemos-container h2 {
+    font-size: 2.5rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    color: var(--branco2);
+}
+
+#oquefazemos img {
+    display: block;
+    max-width: 250px;
+}
+
+#oquefazemos {
+    display: flex;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content:  space-evenly;
+
+}
+
+@media (min-width: 992px) {
+
+    .introducao {
+        height: 710px;
+    }
+
+}
+
+/* FIM DA INTRODUÇÃO */
+
+/* TRABALHAMOS PARA  */
+
+.trabalhamospara-bg {
+    background-color: var(--cinza-escuro-principal);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: var(--branco-puro);
+}
+
+.trabalhamospara-bg h1 {
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+#clientes {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 1200px;
+    height: 290px;
+}
+
+#clientes::-webkit-scrollbar {
+    height: 8px;
+    border-radius: 5px;
+    background-color: var(--cinza-titulo-grande);
+}
+
+#clientes::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--cinza-fonte);
+}
+
+.cliente a {
+    display: block;
+    width: 280px;
+    height: 280px;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 930px) {
+
+    #clientes {
+        overflow-x: auto;
+    }
+
+}
+
+/* FIM DE TRABALHAMOS PARA */
+
+/* FOOTER */
+
+.footer-bg {
+    background-color: var(--cinza-escuro-principal);
+    height: 600px;
+    margin-top: 50px;
+}
+
+.footer {
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    place-content: center;
+    color: var(--branco2);
+}
+
+.localizacao {
+    display: flex;
+    gap: 60px;
+    grid-column: 2;
+    font-size: .9rem;
+    margin-left: 15px;
+}
+
+.linksuteis {
+    margin-top: 60px;
+}
+
+.footer ul {
+    grid-column: 1;
+}
+
+.footer li {
+    margin-bottom: 6px;
+    font-size: 1.3rem;
+}
+
+.footer h1 {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--branco2);
+    position: relative;
+}
+
+.footer a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    bottom: -7px;
+    background-color: var(--branco2);
+    visibility: visible;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .footer a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+.mapa iframe {
+    width: 600px;
+}
+
+@media (max-width: 930px) {
+    .footer {
+        grid-template-columns: 1fr;
+        padding-top: 0px;
+    }
+
+    .linksuteis {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mapa:before{
+        display: block;
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: var(--cinza-fonte);
+    }
+
+    .footer h1 {
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+        justify-self: center;
+    }
+
+    .footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer li {
+        font-size: .85rem;
+    }
+
+    .localizacao {
+        grid-column: 1;
+        justify-content: space-around;
+        margin-left: -10px;
+        font-size: .85rem;
+    }
+    
+    .mapa iframe {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+}
+
+/* FIM DE FOOTER */
