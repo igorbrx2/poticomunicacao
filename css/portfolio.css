@@ -5,7 +5,7 @@ body {
 /* MENU */
 
 .container-menu-portfolio {
-max-width: 1400px;
+max-width: 1600px;
 }
 
 /* TITULO  */
@@ -37,12 +37,14 @@ color: var(--amarelo-fonte);
 }
 
 .categoria-portfolio h1 {
+    display: block;
     width: 465px;
     color: var(--branco2);
     font-weight: bolder;
     font-size: 1.3rem;
     background-color: var(--cinza-escuro-principal);
     padding: 4px;
+    margin-left: 185px;
 }
 
 .item-categoria-portfolio img {
@@ -71,6 +73,8 @@ width: 300px;
     gap: 8px;
     margin-top: 8px;
     margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
    }
 
 a:hover {
