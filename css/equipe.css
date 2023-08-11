@@ -30,9 +30,11 @@ body {
 }
 
 #equipe h1 {
-    padding-left: 51px;
-    font-size: 1.7rem;
+    text-align: center;
+    display: block;
     font-weight: 500;
+    margin-bottom: 50px;
+    text-transform: uppercase;
 }
 
 #equipe {

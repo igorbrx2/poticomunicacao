@@ -36,6 +36,7 @@ color: var(--amarelo-fonte);
     margin-top: 100px;
 }
 
+
 .categoria-portfolio h1 {
     display: block;
     width: 465px;
@@ -44,39 +45,81 @@ color: var(--amarelo-fonte);
     font-size: 1.3rem;
     background-color: var(--cinza-escuro-principal);
     padding: 4px;
-    margin-left: 185px;
 }
 
-.item-categoria-portfolio img {
+.item-categoria-portfolio a {
 display: block;
 width: 300px;
+transition: .3s;
 }
 
 .item-categoria-portfolio p {
     color: var(--branco2);
     max-width: 300px;
     margin-top: 8px;
+    margin-bottom: 15px;
 }
 
-.item-categoria-portfolio a {
-    transition: .1s;
-}
 
 /* CSS CAMPANHAS  */
 
 #campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
     display: flex;
     max-width: 1200px;
-    flex-wrap: nowrap;
     overflow-x: auto;
-    overflow-y: hidden;
+    box-sizing: border-box;
     gap: 8px;
     margin-top: 8px;
-    margin-bottom: 70px;
     margin-left: auto;
     margin-right: auto;
+   }
+
+   #campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura::-webkit-scrollbar {
+
    }
 
 a:hover {
     opacity: 0.8;
 }
+
+/* RESPONSIVO */
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 576px) {
+
+    .titulo-portfolio {
+        text-align: center;
+        margin-top: 80px;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .categoria-portfolio h1 {
+        width: 300px;
+    }
+    
+    .titulo-portfolio {
+        text-align: center;
+        margin-top: 80px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
+        display: flex;
+        max-width: 1200px;
+        gap: 8px;
+        margin-top: 8px;
+        margin-bottom: 70px;
+        margin-left: auto;
+        margin-right: auto;
+       }
+
+}
+
+
