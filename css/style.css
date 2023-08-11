@@ -397,7 +397,7 @@ padding-bottom: 40px;
         display: block;
         height: 50px;
         width: 50px;
-        margin-right: 20px;
+        margin-right: 10px;
         background: none;
         border: none;
     }
@@ -433,5 +433,27 @@ padding-bottom: 40px;
 
     #oquefazemos-container {
         height: 225px;
+    }
+    
+    .footer-bg {
+        background-color: var(--cinza-escuro-principal);
+        height: 700px;
+        margin-top: 50px;
+    }
+
+    .localizacao {
+        grid-column: 1;
+        justify-content: space-around;
+        margin-left: -1px;
+        font-size: .85rem;
+    }
+
+    #btn-mobile {
+        display: block;
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+        background: none;
+        border: none;
     }
 }

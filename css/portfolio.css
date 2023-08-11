@@ -48,9 +48,9 @@ color: var(--amarelo-fonte);
 }
 
 .item-categoria-portfolio a {
-display: block;
-width: 300px;
-transition: .3s;
+    display: block;
+    width: 300px;
+    transition: .3s;
 }
 
 .item-categoria-portfolio p {
@@ -65,18 +65,9 @@ transition: .3s;
 
 #campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
     display: flex;
-    max-width: 1200px;
-    overflow-x: auto;
-    box-sizing: border-box;
     gap: 8px;
     margin-top: 8px;
-    margin-left: auto;
-    margin-right: auto;
-   }
-
-   #campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura::-webkit-scrollbar {
-
-   }
+}
 
 a:hover {
     opacity: 0.8;
@@ -84,7 +75,33 @@ a:hover {
 
 /* RESPONSIVO */
 
+@media (max-width: 1200px) {
+
+#campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
+    display: flex;
+    max-width: 1200px;
+    overflow-x: auto;
+    gap: 8px;
+    margin-top: 8px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    }
+
 @media (max-width: 992px) {
+
+#campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
+    display: flex;
+    max-width: 1200px;
+    overflow-x: auto;
+    gap: 8px;
+    margin-top: 8px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    }
 
 }
 
@@ -113,6 +130,7 @@ a:hover {
     #campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
         display: flex;
         max-width: 1200px;
+        overflow-x: auto;
         gap: 8px;
         margin-top: 8px;
         margin-bottom: 70px;
