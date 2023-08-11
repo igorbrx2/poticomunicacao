@@ -56,7 +56,7 @@ img {
 }
 
 .linhavertical {
-    height: 195vh;
+    height: 2200px;
     border-right: 7px dashed var(--amarelo-fonte);
     grid-area: linha;
     justify-self: center;

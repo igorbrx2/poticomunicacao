@@ -177,9 +177,11 @@ padding-bottom: 40px;
     background-color: var(--cinza-escuro-principal);
     height: 600px;
     margin-top: 50px;
+    z-index: 1;
 }
 
 .footer {
+    z-index: 1;
     padding-top: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -241,6 +243,7 @@ padding-bottom: 40px;
   }
 
 .mapa iframe {
+    z-index: 1;
     width: 700px;
 }
 
