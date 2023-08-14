@@ -56,11 +56,11 @@ img {
 }
 
 .linhavertical {
-    height: 2200px;
     border-right: 7px dashed var(--amarelo-fonte);
     grid-area: linha;
     justify-self: center;
 }
+
 
 /* Fim dos containers e formas */
 
