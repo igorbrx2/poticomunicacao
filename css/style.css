@@ -82,7 +82,6 @@
     height: 220px;
     background-color: var(--cinza-bg);
     margin-top: 45px;
-    font-size: 1.2rem;
     z-index: 1000;
 }
 
@@ -360,15 +359,9 @@ padding-bottom: 40px;
 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
-    #texto-intro {
-        margin-top: 30vh;
-        color: var(--amarelo-fonte);
-        max-width: 80vw;
-        font-size: 8vw;
-        font-weight: 600;
-      }
+    /* MENU MOBILE */
 
     #menu {
         display: block;
@@ -405,15 +398,7 @@ padding-bottom: 40px;
         border: none;
     }
 
-    .footer-bg {
-        background-color: var(--cinza-escuro-principal);
-        height: 650px;
-        margin-top: 50px;
-    }
-
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
+    /* INTRODUÇÃO */
 
     #texto-intro {
         margin-top: 35vh;
@@ -430,7 +415,6 @@ padding-bottom: 40px;
     #oquefazemos {
         display: flex;
         max-width: 90vw;
-        box-sizing: border-box;
         flex-wrap: wrap;
     }
 
@@ -445,14 +429,23 @@ padding-bottom: 40px;
 
     #oquefazemos-container h2 {
         text-align: center;
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
+    /* TRABALHAMOS PARA  */
+
+    .trabalhamospara-bg h1 {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        }
+
     /* FOOTER */
+
     
     .footer-bg {
         background-color: var(--cinza-escuro-principal);
-        height: 650px;
+        height: 700px;
         margin-top: 50px;
     }
 
@@ -463,6 +456,38 @@ padding-bottom: 40px;
         font-size: .70rem;
     }
 
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /* MENU MOBILE */
+
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        z-index: 1000;
+        transition: .6s;
+        top: 38px;
+        right: 0px;
+        background-color: var(--cinza-escuro-principal);
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu li {
+        padding: .75rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .5);
+    }
+
     #btn-mobile {
         display: block;
         height: 50px;
@@ -471,4 +496,65 @@ padding-bottom: 40px;
         background: none;
         border: none;
     }
+
+    /* INTRODUÇÃO */
+
+    #texto-intro {
+        margin-top: 30vh;
+        color: var(--amarelo-fonte);
+        max-width: 80vw;
+        font-size: 8vw;
+        font-weight: 600;
+    }
+
+    /* O QUE FAZEMOS */
+
+    #texto-intro {
+        margin-top: 35vh;
+        color: var(--amarelo-fonte);
+        max-width: 80vw;
+        font-size: 9vw;
+        font-weight: 600;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* O QUE FAZEMOS */ 
+
+    #oquefazemos {
+        display: flex;
+        max-width: 90vw;
+        flex-wrap: wrap;
+    }
+
+    #oquefazemos img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #oquefazemos-container {
+        height: 520px;
+    }
+
+    #oquefazemos-container h2 {
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    /* TRABALHAMOS PARA */
+
+    .trabalhamospara-bg h1 {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        }
+
+    /* FOOTER */
+
+    .footer-bg {
+        background-color: var(--cinza-escuro-principal);
+        height: 650px;
+        margin-top: 50px;
+    }
 }
+

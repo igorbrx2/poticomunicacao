@@ -9,10 +9,6 @@ html {
 
 /* ESTILIZAÇAO DO MANIFESTO */
 
-.linhavertinal-pequena {
-    display: none;
-}
-
 #manifesto {
     height: 50rem;
     display: grid;
@@ -77,8 +73,8 @@ html {
     margin-top: 2.5rem;
     display: grid;
     grid-template-columns: 25rem 1.25rem 25rem;
-    grid-template-areas: 
-    "ano linha paragrafo";
+    grid-template-areas:
+        "ano linha paragrafo";
     gap: 50px;
     justify-content: center;
 }
@@ -104,8 +100,8 @@ html {
     height: 640px;
     display: grid;
     grid-template-columns: 25rem 1.25rem 25rem;
-    grid-template-areas: 
-    "ano linha paragrafo";
+    grid-template-areas:
+        "ano linha paragrafo";
     gap: 50px;
     justify-content: center;
 }
@@ -113,6 +109,7 @@ html {
 .ano2015 .linhavertical {
     height: 630px;
 }
+
 .ano2015 h1 {
     grid-area: ano;
     text-align: end;
@@ -145,8 +142,8 @@ html {
     height: 250px;
     display: grid;
     grid-template-columns: 25rem 1.25rem 25rem;
-    grid-template-areas: 
-    "ano linha paragrafo";
+    grid-template-areas:
+        "ano linha paragrafo";
     gap: 50px;
     justify-content: center;
 }
@@ -181,8 +178,8 @@ html {
     height: 360px;
     display: grid;
     grid-template-columns: 25rem 1.25rem 25rem;
-    grid-template-areas: 
-    "ano linha paragrafo";
+    grid-template-areas:
+        "ano linha paragrafo";
     gap: 50px;
     justify-content: center;
 }
@@ -217,8 +214,8 @@ html {
     height: 300px;
     display: grid;
     grid-template-columns: 25rem 1.25rem 25rem;
-    grid-template-areas: 
-    "ano linha paragrafo";
+    grid-template-areas:
+        "ano linha paragrafo";
     gap: 50px;
     justify-content: center;
 }
@@ -276,8 +273,8 @@ html {
     }
 
     #manifesto h1 {
-    font-size: 2rem;
-    word-wrap: normal;
+        font-size: 1.9rem;
+        word-wrap: normal;
     }
 
     /* CORPO DO MANIFESTO */
@@ -293,11 +290,11 @@ html {
     .corpo-manifesto .linhavertical {
         display: none;
     }
-    
+
     .corpo-manifesto p {
         margin-top: 30px;
     }
-    
+
     .corpo-manifesto h2 {
         text-align: center;
         font-size: 1.5rem;
@@ -307,7 +304,7 @@ html {
 
     .ano2015 {
         margin-top: 20px;
-        max-height: 650px;
+        height: auto;
         display: inline-block;
         gap: 50px;
         justify-content: center;
@@ -316,6 +313,7 @@ html {
     .ano2015 .linhavertical {
         display: none;
     }
+
     .ano2015 h1 {
         text-align: center;
     }
@@ -334,7 +332,7 @@ html {
 
     .ano2015 img {
         margin-top: 30px;
-        max-width: 80%;
+        max-width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -343,7 +341,7 @@ html {
 
     .ano2016 {
         margin-top: 20px;
-        max-height: 50px;
+        height: auto;
         display: inline-block;
     }
 
@@ -372,7 +370,7 @@ html {
 
     .ano2020 {
         margin-top: 20px;
-        height: 360px;
+        height: auto;
         display: inline-block;
         gap: 50px;
         justify-content: center;
@@ -402,34 +400,329 @@ html {
 
     .ano2022 {
         margin-top: 20px;
-        height: 300px;
+        height: auto;
         display: inline-block;
         gap: 50px;
         justify-content: center;
     }
-    
+
     .ano2022 .linhavertical {
         display: none;
     }
-    
+
     .ano2022 h1 {
         text-align: center;
     }
-    
+
     .ano2022 h2 {
         margin-top: 10px;
         text-align: center;
         font-size: 1.6rem;
     }
-    
+
     .ano2022 p {
         margin-top: 30px;
         max-width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
-    
 
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
 
+    .retangulo-amarelo {
+        height: 170px;
+    }
+
+    .historiamanifesto {
+        display: flex;
+        flex-wrap: wrap;
+        color: var(--cinza-escuro-principal);
+        gap: 60px;
+        padding-top: 30px;
+        margin: 0 auto;
+        padding-bottom: 530px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .historiamanifesto p {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+
+    .historiamanifesto a {
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    #manifesto h1 {
+        font-size: 2.8rem;
+        word-wrap: normal;
+    }
+
+    /* CORPO DO MANIFESTO */
+
+    .corpo-manifesto {
+        height: auto;
+        margin-top: 100px;
+        display: inline-block;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .corpo-manifesto .linhavertical {
+        display: none;
+    }
+
+    .corpo-manifesto p {
+        margin-top: 30px;
+    }
+
+    .corpo-manifesto h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    /* 2015 */
+
+    .ano2015 {
+        margin-top: 20px;
+        height: auto;
+        display: inline-block;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .ano2015 .linhavertical {
+        display: none;
+    }
+
+    .ano2015 h1 {
+        text-align: center;
+    }
+
+    .ano2015 h2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .ano2015 p {
+        margin-top: 30px;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ano2015 img {
+        margin-top: 30px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* 2016 */
+
+    .ano2016 {
+        margin-top: 20px;
+        height: auto;
+        display: inline-block;
+    }
+
+    .ano2016 .linhavertical {
+        display: none;
+    }
+
+    .ano2016 h1 {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .ano2016 h2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .ano2016 p {
+        margin-top: 30px;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* 2020 */
+
+    .ano2020 {
+        margin-top: 20px;
+        height: auto;
+        display: inline-block;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .ano202 .linhavertical {
+        display: none;
+    }
+
+    .ano2020 h1 {
+        text-align: center;
+    }
+
+    .ano2020 h2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .ano2020 p {
+        margin-top: 30px;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* 2022 */
+
+    .ano2022 {
+        margin-top: 20px;
+        height: auto;
+        display: inline-block;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .ano2022 .linhavertical {
+        display: none;
+    }
+
+    .ano2022 h1 {
+        text-align: center;
+    }
+
+    .ano2022 h2 {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .ano2022 p {
+        margin-top: 30px;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* CORPO MANIFESTO */
+
+    .corpo-manifesto {
+        height: auto;
+        grid-template-columns: 10fr 1fr 10fr;
+    }
+
+    .corpo-manifesto h2 {
+        font-size: 1.6rem;
+    }
+
+    .corpo-manifesto p {
+        max-width: 35vw;
+    }
+
+    .corpo-manifesto .linhavertical {
+        height: 850px;
+    }
+
+    /* ANO 2015  */
+
+    .ano2015 {
+        margin-top: -40px;
+        height: auto;
+        grid-template-columns: 10fr 1fr 10fr;
+    }
+
+    .ano2015 h2 {
+        font-size: 1.6rem;
+    }
+
+
+    .ano2015 p {
+        max-width: 35vw;
+    }
+
+    .ano2015 img {
+        margin-top: 250px;
+        max-width: 35vw;
+    }
+
+    .ano2015 .linhavertical {
+        height: 600px;
+    }
+
+
+    /* ANO 2016 */
+
+    .ano2016 {
+        margin-top: 10px;
+        height: auto;
+        grid-template-columns: 10fr 1fr 10fr;
+    }
+
+    .ano2016 h2 {
+        font-size: 1.6rem;
+    }
+
+    .ano2016 p {
+        max-width: 35vw;
+    }
+
+    .ano2016 .linhavertical {
+        height: 280px;
+    }
+
+    /* ANO 2020 */
+
+
+    .ano2020 p {
+        max-width: 35vw;
+    }
+
+    .ano2020 {
+        margin-top: 10px;
+        height: auto;
+        grid-template-columns: 10fr 1fr 10fr;
+    }
+
+    .ano2020 h2 {
+        font-size: 1.6rem;
+    }
+
+    .ano2020 .linhavertical {
+        height: 410px;
+    }
+
+    /* ANO 2022 */
+
+    .ano2022 p {
+        max-width: 35vw;
+    }
+
+    .ano2022 {
+        margin-top: 10px;
+        height: auto;
+        grid-template-columns: 10fr 1fr 10fr;
+    }
+
+    .ano2022 h2 {
+        font-size: 1.6rem;
+    }
+
+    .ano2022 .linhavertical {
+        height: 400px;
+    }
+
+}
