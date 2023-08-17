@@ -424,7 +424,7 @@ padding-bottom: 40px;
     }
 
     #oquefazemos-container {
-        height: 550px;
+        height: auto;
     }
 
     #oquefazemos-container h2 {
@@ -533,7 +533,7 @@ padding-bottom: 40px;
     }
 
     #oquefazemos-container {
-        height: 520px;
+        height: auto;
     }
 
     #oquefazemos-container h2 {
