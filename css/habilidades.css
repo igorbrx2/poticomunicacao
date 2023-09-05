@@ -1,0 +1,35 @@
+body {
+    background-color: var(--cinza-bg2);
+}
+
+#cabecalho-habilidades {
+    text-align: center;
+}
+
+#cabecalho-habilidades h1 {
+    margin-top: 40px;
+}
+
+#cabecalho-habilidades .retangulo-amarelo {
+    height: 200px;
+}
+
+#grid-habilidades {
+    margin-top: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.habilidade {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px;
+    border-top: 10px solid var(--amarelo-fonte);
+    background-color: var(--branco2);
+    justify-items: center;
+}
+
+.habilidade h2, img {
+    margin-bottom: 30px;
+}
