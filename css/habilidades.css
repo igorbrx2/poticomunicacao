@@ -1,25 +1,30 @@
 body {
     background-color: var(--cinza-bg2);
+    height: auto;
 }
 
 #cabecalho-habilidades {
     text-align: center;
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to top, transparent 0%, var(--amarelo-fonte) 50%);
 }
 
-#cabecalho-habilidades h1 {
-    margin-top: 40px;
+.cabecalho-titulo {
+    padding-top: 40px;
 }
 
-#cabecalho-habilidades .retangulo-amarelo {
-    height: 200px;
+.cabecalho-titulo h1 {
+    font-size: 5rem;
+    color: var(--cinza-bg);
 }
 
-#grid-habilidades {
-    margin-top: 250px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
+.cabecalho-titulo span {
+    font-style: italic;
+    font-size: 1.65rem;
 }
+
+
 
 .habilidade {
     display: grid;
@@ -30,6 +35,30 @@ body {
     justify-items: center;
 }
 
-.habilidade h2, img {
-    margin-bottom: 30px;
+.habilidade {
+    gap: 30px;
 }
+
+/* RESPONSIVIDADE */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+    #grid-habilidades {
+        max-width: 500px;
+        grid-template-columns: 1fr;
+    }
+
+    .habilidade {
+        margin-bottom: 30px;
+    }
+
+    .cabecalho-titulo h1 {
+        font-size: 3rem;
+    }
+
+    .cabecalho-titulo span {
+        font-size: 1rem;
+    }
+
+}
+
