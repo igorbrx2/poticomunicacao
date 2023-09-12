@@ -24,7 +24,13 @@ body {
     font-size: 1.65rem;
 }
 
-
+#grid-habilidades {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
 
 .habilidade {
     display: grid;
@@ -33,31 +39,107 @@ body {
     border-top: 10px solid var(--amarelo-fonte);
     background-color: var(--branco2);
     justify-items: center;
+    align-content: center;
 }
 
 .habilidade {
     gap: 30px;
 }
 
+.habilidade h2 {
+    text-align: center;
+}
+
 /* RESPONSIVIDADE */
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    
-    #grid-habilidades {
-        max-width: 500px;
-        grid-template-columns: 1fr;
-    }
+@media (min-width: 320px) and (max-width: 480px) {
 
-    .habilidade {
-        margin-bottom: 30px;
+    /* CABEÇALHO */
+
+    #cabecalho-habilidades {
+        height: 180px;
     }
 
     .cabecalho-titulo h1 {
-        font-size: 3rem;
+        font-size: 2.4rem;
+    }
+    
+    .cabecalho-titulo span {
+        font-size: .80rem;
     }
 
+    /* FIM DO CABEÇALHO */
+
+    /* CORPO */
+
+    #grid-habilidades {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        gap: 40px;
+    }
+
+    .habilidade {
+        grid-template-columns: 1fr;
+        padding: 30px;
+        justify-items: center;
+    }
+
+    .habilidade h2 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /* CABEÇALHO */
+
+    #cabecalho-habilidades {
+        height: 180px;
+    }
+
+    .cabecalho-titulo h1 {
+        font-size: 3.7rem;
+    }
+    
     .cabecalho-titulo span {
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+
+    /* FIM DO CABEÇALHO */
+
+    /* CORPO */
+
+    #grid-habilidades {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        gap: 40px;
+    }
+
+    .habilidade {
+        max-width: 500px;
+        grid-template-columns: 1fr;
+        padding: 30px;
+        justify-items: center;
+        justify-self: center;
+    }
+
+    .habilidade h2 {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+        
+    #grid-habilidades {
+        gap: 20px;
+    }
+
+    .habilidade {
+        padding: 30px;
+        justify-items: center;
     }
 
 }
