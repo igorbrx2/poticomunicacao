@@ -25,18 +25,19 @@ body {
     padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
 }
 
 #equipe h1 {
+    font-size: 5rem;
     text-align: center;
     display: block;
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     text-transform: uppercase;
 }
 
 #equipe {
-    margin-top: 70px;
+    margin-top: 40px;
 }
