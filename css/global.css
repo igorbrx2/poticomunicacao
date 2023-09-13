@@ -6,7 +6,6 @@ body {
     margin: 0px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background: var(--cinza-bg);
-    height: 2000px;
     max-width: 100%;
 }
 
