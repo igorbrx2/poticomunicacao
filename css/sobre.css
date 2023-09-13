@@ -254,7 +254,11 @@ html {
 @media (min-width: 320px) and (max-width: 480px) {
 
     .retangulo-amarelo {
-        height: 330px;
+        height: 250px;
+    }
+
+    #manifesto {
+        background-position: -320px;
     }
 
     #manifesto .divisao {
@@ -266,22 +270,24 @@ html {
         justify-content: center;
     }
 
+    #manifesto h1 {
+        font-size: 2rem;
+        word-wrap: normal;
+        /* margin-bottom: 40px; */
+    }
+
     .historiamanifesto a {
         color: var(--cinza-titulo-grande);
         font-size: 2.8rem;
         text-decoration: underline;
     }
 
-    #manifesto h1 {
-        font-size: 3.7rem;
-        word-wrap: normal;
-    }
 
     /* CORPO DO MANIFESTO */
 
     .corpo-manifesto {
         height: 640px;
-        margin-top: 2.5rem;
+        margin-top: 40px;
         display: inline-block;
         gap: 50px;
         justify-content: center;
@@ -460,7 +466,7 @@ html {
     }
 
     #manifesto h1 {
-        font-size: 2.8rem;
+        font-size: 3.5rem;
         word-wrap: normal;
     }
 
@@ -468,7 +474,6 @@ html {
 
     .corpo-manifesto {
         height: auto;
-        margin-top: 100px;
         display: inline-block;
         gap: 50px;
         justify-content: center;
@@ -484,7 +489,7 @@ html {
 
     .corpo-manifesto h2 {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     /* 2015 */

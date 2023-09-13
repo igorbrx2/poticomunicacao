@@ -77,69 +77,79 @@ a:hover {
 
 /* RESPONSIVO */
 
-@media (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 480px) {
+
+/* TITULO */
+
+.titulo-portfolio {
+    width: 100vw;
+}
+
+.titulo-portfolio h1 {
+    font-size: 3rem;
+}
+
+.titulo-portfolio span {
+    font-size: 1.1rem;
+}
+
+/* FIM DO TITULO */
+
+/* CORPO */
+
+.categoria-portfolio h1 {
+    max-width: 83vw;
+}
 
 #campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
-    display: flex;
-    max-width: 1200px;
-    overflow-x: auto;
-    gap: 8px;
-    margin-top: 8px;
-    margin-bottom: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    }
-    
-    }
-
-@media (max-width: 992px) {
-
-#campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
-    display: flex;
-    max-width: 1200px;
-    overflow-x: auto;
-    gap: 8px;
-    margin-top: 8px;
-    margin-bottom: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    }
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
 
 }
 
-@media (max-width: 576px) {
+@media (min-width: 481px) and (max-width: 768px) {
 
-    .titulo-portfolio {
-        text-align: center;
-        margin-top: 80px;
-        max-width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+/* TITULO */
 
-    .categoria-portfolio h1 {
-        width: 300px;
-    }
-    
-    .titulo-portfolio {
-        text-align: center;
-        margin-top: 80px;
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.titulo-portfolio {
+    width: 100vw;
+}
 
-    #campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
-        display: flex;
-        max-width: 1200px;
-        overflow-x: auto;
-        gap: 8px;
-        margin-top: 8px;
-        margin-bottom: 70px;
-        margin-left: auto;
-        margin-right: auto;
-       }
+.titulo-portfolio h1 {
+    font-size: 3.7rem;
+}
+
+.titulo-portfolio span {
+    font-size: 1.1rem;
+}
+
+/* FIM DO TITULO */
+
+/* CORPO */
+
+.categoria-portfolio h1 {
+    max-width: 61vw;
+}
+
+#campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
 
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
 
+/* CORPO */
+
+.categoria-portfolio h1 {
+    max-width: 37vw;
+}
+
+#campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+}

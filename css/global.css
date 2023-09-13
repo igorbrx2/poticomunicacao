@@ -4,6 +4,8 @@
 
 body {
     margin: 0px;
+    padding: 0px;
+    height: 100%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background: var(--cinza-bg);
     max-width: 100%;

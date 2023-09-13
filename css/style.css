@@ -184,7 +184,6 @@ padding-bottom: 40px;
     padding-top: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     justify-content: space-evenly;
     color: var(--branco2);
 }
