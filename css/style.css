@@ -78,8 +78,15 @@
 
 /* O QUE FAZEMOS */
 
+.linha-separacao {
+    height: 130px;
+    border-right: 2px solid var(--cinza-titulo-grande);
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
 #oquefazemos-container {
-    height: 250px;
+    height: 330px;
     background-color: var(--cinza-bg);
     margin-top: 45px;
     z-index: 1000;
@@ -93,6 +100,17 @@
     color: var(--branco2);
 }
 
+#oquefazemos-container p {
+    color: var(--amarelo-fonte);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.oquefazemos-icone {
+    display: inline-block;
+}
+
 #oquefazemos img {
     display: block;
     max-width: 250px;
@@ -103,23 +121,12 @@
     display: flex;
     max-width: 1200px;
     box-sizing: border-box;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     overflow-x: auto;
     overflow-y: hidden;
     align-content: center;
     justify-content:  space-between;
 
-}
-
-#oquefazemos::-webkit-scrollbar {
-    height: 5px;
-    border-radius: 5px;
-    background-color: var(--cinza-titulo-grande);
-}
-
-#oquefazemos::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    background-color: var(--cinza-fonte);
 }
 
 
@@ -411,10 +418,15 @@ padding-bottom: 40px;
 
       /* O QUE FAZEMOS */ 
 
+      .linha-separacao {
+        display: none;
+      }
+
     #oquefazemos {
         display: flex;
         max-width: 90vw;
         flex-wrap: wrap;
+
     }
 
     #oquefazemos img {
@@ -423,12 +435,16 @@ padding-bottom: 40px;
     }
 
     #oquefazemos-container {
-        height: auto;
+        height: 550px;
     }
 
     #oquefazemos-container h2 {
         text-align: center;
         font-size: 2.8rem;
+    }
+
+    .oquefazemos-icone {
+        padding-bottom: 30px;
     }
 
     /* TRABALHAMOS PARA  */
@@ -506,8 +522,6 @@ padding-bottom: 40px;
         font-weight: 600;
     }
 
-    /* O QUE FAZEMOS */
-
     #texto-intro {
         margin-top: 35vh;
         color: var(--amarelo-fonte);
@@ -520,8 +534,14 @@ padding-bottom: 40px;
 
       /* O QUE FAZEMOS */ 
 
+    .linha-separacao {
+        display: none;
+    }
+
     #oquefazemos {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
         max-width: 90vw;
         flex-wrap: wrap;
     }
@@ -531,8 +551,9 @@ padding-bottom: 40px;
         margin-right: auto;
     }
 
+
     #oquefazemos-container {
-        height: auto;
+        height: 500px;
     }
 
     #oquefazemos-container h2 {
