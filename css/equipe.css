@@ -18,11 +18,11 @@ body {
 }
 
 .integrante img, h2, p {
-    padding-bottom: 12px;
+    padding-bottom: 16px;
 }
 
 #equipe-integrantes {
-    padding-top: 40px;
+    padding-top: 64px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -30,14 +30,13 @@ body {
 }
 
 #equipe h1 {
-    font-size: 5rem;
     text-align: center;
     display: block;
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
     text-transform: uppercase;
 }
 
 #equipe {
-    margin-top: 40px;
+    margin-top: 32px;
 }

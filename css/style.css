@@ -44,7 +44,7 @@
     flex-wrap: wrap;
     gap: 64px;
     color: var(--cinza-fonte);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 
 }
 
@@ -398,9 +398,9 @@
 
     #btn-mobile {
         display: block;
-        height: 50px;
-        width: 50px;
-        margin-right: 10px;
+        height: 56px;
+        width: 56px;
+        margin-right: 8px;
         background: none;
         border: none;
     }
@@ -408,7 +408,7 @@
     /* INTRODUÇÃO */
 
     #texto-intro {
-        margin-top: 35vh;
+        margin-top: 32vh;
         color: var(--amarelo-fonte);
         max-width: 80vw;
         font-size: 9vw;
@@ -436,7 +436,8 @@
     }
 
     #oquefazemos-container {
-        height: 550px;
+        margin-top: 32px;
+        height: 512px;
     }
 
     #oquefazemos-container h2 {
@@ -445,15 +446,19 @@
     }
 
     .oquefazemos-icone {
-        padding-bottom: 30px;
+        margin-bottom: 64px;
     }
 
     /* TRABALHAMOS PARA  */
 
+    .trabalhamospara-bg {
+        margin-top: 32px;
+    }
+
     .trabalhamospara-bg h1 {
         text-align: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 32px;
+        padding-bottom: 32px;
         }
 
     /* FOOTER */
@@ -462,7 +467,7 @@
     .footer-bg {
         background-color: var(--cinza-escuro-principal);
         height: 700px;
-        margin-top: 50px;
+        margin-top: 32px;
     }
 
     .localizacao {
@@ -485,7 +490,7 @@
         height: 0px;
         z-index: 1000;
         transition: .6s;
-        top: 38px;
+        top: 32px;
         right: 0px;
         background-color: var(--cinza-escuro-principal);
         visibility: hidden;
@@ -506,25 +511,18 @@
 
     #btn-mobile {
         display: block;
-        height: 50px;
-        width: 50px;
-        margin-right: 10px;
+        height: 56px;
+        width: 56px;
+        margin-right: 8px;
         background: none;
         border: none;
     }
 
     /* INTRODUÇÃO */
 
-    #texto-intro {
-        margin-top: 30vh;
-        color: var(--amarelo-fonte);
-        max-width: 80vw;
-        font-size: 8vw;
-        font-weight: 600;
-    }
 
     #texto-intro {
-        margin-top: 35vh;
+        margin-top: 32vh;
         color: var(--amarelo-fonte);
         max-width: 80vw;
         font-size: 9vw;
@@ -542,7 +540,7 @@
     #oquefazemos {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 32px;
         max-width: 90vw;
         flex-wrap: wrap;
     }
@@ -554,7 +552,8 @@
 
 
     #oquefazemos-container {
-        height: 500px;
+        margin-top: 32px;
+        height: 512px;
     }
 
     #oquefazemos-container h2 {
@@ -562,12 +561,20 @@
         font-size: 2.8rem;
     }
 
+    .oquefazemos-icone {
+        margin-bottom: 64px;
+    }
+
     /* TRABALHAMOS PARA */
+
+    .trabalhamospara-bg {
+        margin-top: 32px;
+    }
 
     .trabalhamospara-bg h1 {
         text-align: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 32px;
+        padding-bottom: 32px;
         }
 
     /* FOOTER */
@@ -575,7 +582,7 @@
     .footer-bg {
         background-color: var(--cinza-escuro-principal);
         height: 650px;
-        margin-top: 50px;
+        margin-top: 32px;
     }
 }
 

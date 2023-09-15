@@ -11,31 +11,28 @@ body {
 }
 
 .cabecalho-titulo {
-    padding-top: 40px;
+    padding-top: 32px;
 }
 
-.cabecalho-titulo h1 {
-    font-size: 5rem;
-    color: var(--cinza-bg);
-}
 
 .cabecalho-titulo span {
     font-style: italic;
-    font-size: 1.65rem;
+    font-size: 1.2rem;
 }
 
 #grid-habilidades {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 64px;
+    margin-bottom: 64px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 80px;
+    gap: 32px;
 }
 
 .habilidade {
+    width: 512px;
     display: grid;
     grid-template-columns: 1fr;
-    padding: 50px;
+    padding: 64px 32px;
     border-top: 10px solid var(--amarelo-fonte);
     background-color: var(--branco2);
     justify-items: center;
@@ -43,7 +40,7 @@ body {
 }
 
 .habilidade {
-    gap: 30px;
+    gap: 32px;
 }
 
 .habilidade h2 {
