@@ -27,9 +27,12 @@
 #logo {
     display: block;
     width: 200px;
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .header-container {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -39,10 +42,10 @@
 #menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 60px;
-    margin-top: 10px;
+    gap: 64px;
     color: var(--cinza-fonte);
     font-size: 1.3rem;
+
 }
 
 #menu a:hover {
@@ -68,8 +71,8 @@
 }
 
 #texto-intro {
-    margin-top: 100px;
-    margin-left: 80px;
+    margin-top: 128px;
+    margin-left: 64px;
     color: var(--amarelo-fonte);
     max-width: 50vw;
     font-size: 5vw;
@@ -79,24 +82,24 @@
 /* O QUE FAZEMOS */
 
 .linha-separacao {
-    height: 130px;
+    height: 128px;
     border-right: 2px solid var(--cinza-titulo-grande);
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: -16px;
+    margin-right: -16px;
 }
 
 #oquefazemos-container {
-    height: 330px;
+    height: 256px;
     background-color: var(--cinza-bg);
-    margin-top: 45px;
+    margin-top: 64px;
     z-index: 1000;
 }
 
 #oquefazemos-container h2 {
     font-size: 2.5rem;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 30px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    padding-left: 32px;
     color: var(--branco2);
 }
 
@@ -105,16 +108,17 @@
     text-align: center;
     font-weight: 600;
     font-size: 1.2rem;
+    margin-top: 8px;
 }
 
 .oquefazemos-icone {
+    max-height: 128px;
     display: inline-block;
 }
 
 #oquefazemos img {
     display: block;
-    max-width: 250px;
-    margin-bottom: 15px;
+    max-width: 256px;
 }
 
 #oquefazemos {
@@ -122,11 +126,8 @@
     max-width: 1200px;
     box-sizing: border-box;
     flex-wrap: wrap;
-    overflow-x: auto;
-    overflow-y: hidden;
     align-content: center;
     justify-content:  space-between;
-
 }
 
 
@@ -136,14 +137,13 @@
 
 .trabalhamospara-bg {
     background-color: var(--cinza-escuro-principal);
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 64px;
     color: var(--branco-puro);
 }
 
 .trabalhamospara-bg h1 {
-padding-top: 40px;
-padding-bottom: 40px;
+    padding-top: 16px;
+    padding-bottom: 32px;
 }
 
 #clientes {
@@ -152,26 +152,26 @@ padding-bottom: 40px;
     overflow-x: auto;
     overflow-y: hidden;
     max-width: 1200px;
-    height: 290px;
+    height: 256px;
     align-content: center;
     justify-content: space-between;
 }
 
 #clientes::-webkit-scrollbar {
-    height: 5px;
+    height: 2px;
     border-radius: 5px;
     background-color: var(--cinza-titulo-grande);
 }
 
 #clientes::-webkit-scrollbar-thumb {
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: var(--cinza-fonte);
 }
 
 .cliente a {
     display: block;
-    width: 250px;
-    margin-bottom: 80px;
+    width: 256px;
+    margin-bottom: 1px;
 }
 
 
@@ -181,14 +181,14 @@ padding-bottom: 40px;
 
 .footer-bg {
     background-color: var(--cinza-escuro-principal);
-    height: 600px;
-    margin-top: 50px;
+    height: 512px;
+    margin-top: 64px;
     z-index: 1;
 }
 
 .footer {
     z-index: 1;
-    padding-top: 80px;
+    padding-top: 64px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
@@ -197,13 +197,14 @@ padding-bottom: 40px;
 
 .localizacao {
     display: flex;
-    gap: 60px;
+    justify-content: center;
+    gap: 0 64px;
     grid-column: 2;
     font-size: .9rem;
 }
 
 .linksuteis {
-    margin-top: 60px;
+    margin-top: 64px;
 }
 
 .footer ul {
@@ -211,12 +212,12 @@ padding-bottom: 40px;
 }
 
 .footer li {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     font-size: 1.3rem;
 }
 
 .footer h1 {
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 .footer a {
