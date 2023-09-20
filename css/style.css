@@ -428,6 +428,7 @@
         display: flex;
         max-width: 90vw;
         flex-wrap: wrap;
+        justify-content: center;
 
     }
 
@@ -447,7 +448,8 @@
     }
 
     .oquefazemos-icone {
-        margin-bottom: 64px;
+        margin-bottom: 32px;
+        padding: 15px;
     }
 
     /* TRABALHAMOS PARA  */
