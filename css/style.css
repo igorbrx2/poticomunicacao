@@ -429,7 +429,7 @@
         max-width: 90vw;
         flex-wrap: wrap;
         justify-content: center;
-        padding-bottom: 16px;
+        padding-bottom: 8px;
 
     }
 
@@ -450,7 +450,7 @@
 
     .oquefazemos-icone {
         margin-bottom: 32px;
-        padding: 15px;
+        padding: 0 30px;
     }
 
     /* TRABALHAMOS PARA  */
