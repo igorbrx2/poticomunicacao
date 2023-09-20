@@ -429,6 +429,7 @@
         max-width: 90vw;
         flex-wrap: wrap;
         justify-content: center;
+        padding-bottom: 16px;
 
     }
 
@@ -439,7 +440,7 @@
 
     #oquefazemos-container {
         margin-top: 32px;
-        height: 512px;
+        height: 100%;
     }
 
     #oquefazemos-container h2 {
