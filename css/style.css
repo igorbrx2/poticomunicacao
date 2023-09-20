@@ -147,6 +147,26 @@
     padding-bottom: 32px;
 }
 
+.titulo-trabalhamos-para {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.seta-pequena {
+    animation: go-back 1s infinite alternate;
+}
+
+@keyframes go-back {
+    from {
+        transform: translateX(60px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+    
+}
+
 #clientes {
     display: flex;
     flex-wrap: nowrap;
@@ -156,12 +176,18 @@
     height: 256px;
     align-content: center;
     justify-content: space-between;
+    scrollbar-width: thin;
+    scrollbar-color: var(--cinza-titulo-grande) var(--cinza-escuro-principal);
 }
 
 #clientes::-webkit-scrollbar {
-    height: 2px;
+    height: 5px;
     border-radius: 5px;
     background-color: var(--cinza-titulo-grande);
+}
+
+#clientes::-webkit-scrollbar:hover {
+    overflow-x: auto;
 }
 
 #clientes::-webkit-scrollbar-thumb {
@@ -434,6 +460,7 @@
     }
 
     #oquefazemos img {
+        width: 80px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -454,6 +481,14 @@
     }
 
     /* TRABALHAMOS PARA  */
+
+    .seta-pequena {
+        display: none;
+    }
+
+    .titulo-trabalhamos-para {
+        grid-template-columns: 1fr;
+    }
 
     .trabalhamospara-bg {
         margin-top: 32px;
@@ -570,6 +605,14 @@
     }
 
     /* TRABALHAMOS PARA */
+
+    .seta-pequena {
+        display: none;
+    }
+
+    .titulo-trabalhamos-para {
+        grid-template-columns: 1fr;
+    }
 
     .trabalhamospara-bg {
         margin-top: 32px;
