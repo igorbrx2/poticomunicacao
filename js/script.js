@@ -16,7 +16,7 @@ btnMobile.addEventListener('click', toggleMenu);
 // Texto Introdução
 
 
-var string = "Assessoria de comunicação e produção de conteúdo."; /* type your text here */
+var string = "Assessoria de Comunicação e Produção de Conteúdo."; /* type your text here */
 var array = string.split("");
 var timer;
 
