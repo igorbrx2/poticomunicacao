@@ -143,6 +143,7 @@
     background-color: var(--cinza-escuro-principal);
     margin-top: 32px;
     color: var(--branco-puro);
+    position: relative;
 }
 
 .trabalhamospara-bg h1 {
@@ -154,6 +155,8 @@
     padding-top: 8px;
     padding-bottom: 16px;
     animation: go-back 1s infinite alternate;
+    position: absolute;
+    bottom: -1px;
 }
 
 @keyframes go-back {
@@ -172,7 +175,8 @@
     overflow-x: auto;
     overflow-y: hidden;
     max-width: 1200px;
-    height: 256px;
+    height: 280px;
+    padding-bottom: 64px;
     align-content: center;
     justify-content: space-between;
     scrollbar-width: thin;
