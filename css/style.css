@@ -18,6 +18,10 @@
 
 /* ESTRUTURA */
 
+body {
+    height: 1500px;
+}
+
 /* Header */
 
 .header-bg {
