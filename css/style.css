@@ -157,6 +157,7 @@
     animation: go-back 1s infinite alternate;
     position: absolute;
     bottom: -1px;
+    left: 180px;
 }
 
 @keyframes go-back {
@@ -174,7 +175,7 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
-    max-width: 1400px;
+    max-width: 1200px;
     height: 280px;
     padding-bottom: 64px;
     align-content: center;
