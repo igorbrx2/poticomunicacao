@@ -25,7 +25,8 @@ body {
     margin-bottom: 64px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 32px;
+    gap: 32px 0px;
+    justify-items: center;
 }
 
 .habilidade {
