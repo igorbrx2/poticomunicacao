@@ -94,8 +94,8 @@
 
 #oquefazemos-container {
     height: 256px;
-    background-color: var(--cinza-bg);
-    margin-top: 64px;
+    background-color: var(--cinza-escuro-principal);
+    margin-top: 32px;
     z-index: 1000;
 }
 
@@ -141,7 +141,7 @@
 
 .trabalhamospara-bg {
     background-color: var(--cinza-escuro-principal);
-    margin-top: 64px;
+    margin-top: 32px;
     color: var(--branco-puro);
 }
 
@@ -208,7 +208,7 @@
 .footer-bg {
     background-color: var(--cinza-escuro-principal);
     height: 512px;
-    margin-top: 64px;
+    margin-top: 32px;
     z-index: 1;
 }
 
