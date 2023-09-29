@@ -78,8 +78,8 @@ body {
 }
 
 #texto-intro {
-    padding-top: 256px;
-    margin-left: 64px;
+    padding-top: 15vh;
+    margin-right: 44vw;
     line-height: 1.3;
     color: var(--amarelo-fonte);
     max-width: 50vw;
@@ -161,7 +161,7 @@ body {
     animation: go-back 1s infinite alternate;
     position: absolute;
     bottom: -1px;
-    left: 180px;
+    left: 200px;
 }
 
 @keyframes go-back {
