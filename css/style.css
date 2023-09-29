@@ -292,114 +292,6 @@ body {
 
 /* RESPONSIVO */
 
-@media (max-width: 992px) {
-    .footer {
-        grid-template-columns: 1fr;
-        padding-top: 0px;
-    }
-
-    .linksuteis {
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .mapa:before{
-        display: block;
-        content: '';
-        width: 100%;
-        height: 1px;
-        background: var(--cinza-fonte);
-    }
-
-    .footer h1 {
-        font-size: 1.2rem;
-        padding-bottom: 15px;
-        justify-self: center;
-    }
-
-    .footer ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-        margin-bottom: 10px;
-    }
-
-    .footer li {
-        font-size: .85rem;
-    }
-
-    .localizacao {
-        grid-column: 1;
-        justify-content: space-around;
-        margin-left: -10px;
-        font-size: .85rem;
-    }
-    
-    .mapa iframe {
-        width: 100%;
-        padding-top: 25px;
-    }
-
-
-    #texto-intro {
-        margin-top: 30vh;
-        color: var(--amarelo-fonte);
-        max-width: 80vw;
-        font-size: 8vw;
-        font-weight: 600;
-      }
-
-
-    .footer {
-        grid-template-columns: 1fr;
-        padding-top: 0px;
-    }
-
-    .linksuteis {
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .mapa:before{
-        display: block;
-        content: '';
-        width: 100%;
-        height: 1px;
-        background: var(--cinza-fonte);
-    }
-
-    .footer h1 {
-        font-size: 1.2rem;
-        padding-bottom: 15px;
-        justify-self: center;
-    }
-
-    .footer ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-        margin-bottom: 10px;
-    }
-
-    .footer li {
-        font-size: .85rem;
-    }
-
-    .localizacao {
-        grid-column: 1;
-        justify-content: space-around;
-        margin-left: -10px;
-        font-size: .85rem;
-    }
-    
-    .mapa iframe {
-        width: 100%;
-        padding-top: 25px;
-    }
-
-}
 
 @media (min-width: 320px) and (max-width: 480px) {
 
@@ -639,5 +531,115 @@ body {
         height: 650px;
         margin-top: 32px;
     }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .footer {
+        grid-template-columns: 1fr;
+        padding-top: 0px;
+    }
+
+    .linksuteis {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mapa:before{
+        display: block;
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: var(--cinza-fonte);
+    }
+
+    .footer h1 {
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+        justify-self: center;
+    }
+
+    .footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer li {
+        font-size: .85rem;
+    }
+
+    .localizacao {
+        grid-column: 1;
+        justify-content: space-around;
+        margin-left: -10px;
+        font-size: .85rem;
+    }
+    
+    .mapa iframe {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+
+    #texto-intro {
+        margin-top: 30vh;
+        color: var(--amarelo-fonte);
+        max-width: 80vw;
+        font-size: 8vw;
+        font-weight: 600;
+      }
+
+
+    .footer {
+        grid-template-columns: 1fr;
+        padding-top: 0px;
+    }
+
+    .linksuteis {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mapa:before{
+        display: block;
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: var(--cinza-fonte);
+    }
+
+    .footer h1 {
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+        justify-self: center;
+    }
+
+    .footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer li {
+        font-size: .85rem;
+    }
+
+    .localizacao {
+        grid-column: 1;
+        justify-content: space-around;
+        margin-left: -10px;
+        font-size: .85rem;
+    }
+    
+    .mapa iframe {
+        width: 100%;
+        padding-top: 25px;
+    }
+
 }
 
