@@ -161,7 +161,7 @@ body {
     animation: go-back 1s infinite alternate;
     position: absolute;
     bottom: -1px;
-    left: 200px;
+    left: 100px;
 }
 
 @keyframes go-back {
@@ -184,7 +184,7 @@ body {
     padding-bottom: 64px;
     align-content: center;
     justify-content: space-between;
-    scrollbar-width: thin;
+    scrollbar-width:initial;
     scrollbar-color: var(--cinza-titulo-grande) var(--cinza-escuro-principal);
 }
 
