@@ -136,8 +136,8 @@ body {
         
     #grid-habilidades {
         grid-template-columns: 1fr;
-        width: 100%;
-        gap: 20px;
+        width: 90%;
+        gap: 64px;
         justify-items: center;
     }
 
