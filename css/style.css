@@ -161,7 +161,7 @@ body {
     animation: go-back 1s infinite alternate;
     position: absolute;
     bottom: -1px;
-    left: 85px;
+    left: 210px;
 }
 
 @keyframes go-back {
