@@ -7,6 +7,15 @@ html {
     scroll-behavior: smooth;
 }
 
+/* HEADER */
+
+.botao-sobre {
+    color: var(--amarelo-fonte);
+}
+
+
+/* FIM DE HEADER */
+
 /* ESTILIZAÇAO DO MANIFESTO */
 
 #manifesto {
@@ -31,6 +40,10 @@ html {
 #manifesto .retangulo-cinza {
     align-self: end;
     height: 18.75rem;
+}
+
+.botao-manifesto {
+    color: var(--cinza-titulo-grande);
 }
 
 
@@ -59,7 +72,7 @@ html {
 }
 
 .historiamanifesto a:hover {
-    color: var(--preto-puro);
+    color: var(--cinza-escuro-principal);
 }
 
 .divisao {

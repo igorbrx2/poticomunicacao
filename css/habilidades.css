@@ -3,6 +3,18 @@ body {
     height: auto;
 }
 
+/* HEADER */
+
+.botao-sobre {
+    color: inherit;
+}
+
+.botao-habilidades {
+    color: var(--amarelo-fonte);
+}
+
+/* FIM DE HEADER */
+
 #cabecalho-habilidades {
     text-align: center;
     width: 100%;

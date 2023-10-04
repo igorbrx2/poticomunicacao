@@ -1,155 +1,176 @@
 body {
-    background-color: var(--preto-puro);
+  background-color: var(--preto-puro);
 }
 
-/* MENU */
+/* HEADER */
+
+.botao-sobre {
+  color: inherit;
+}
+
+.botao-habilidades {
+  color: inherit;
+}
+
+.botao-portfolio {
+  color: var(--amarelo-fonte);
+}
+
+/* FIM DE HEADER */
 
 .container-menu-portfolio {
-max-width: 1600px;
+  max-width: 1600px;
 }
 
 /* TITULO  */
 
 .titulo-portfolio {
-    text-align: center;
-    margin-top: 32px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+  text-align: center;
+  margin-top: 32px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.titulo-portfolio h1 { 
-    color: var(--amarelo-fonte);
+.titulo-portfolio h1 {
+  color: var(--amarelo-fonte);
 }
 
 .titulo-portfolio span {
-    display: block;
-    text-align: center;
-    color: var(--amarelo-fonte);
-    font-size: 1.5rem;
-    font-style: oblique;
+  display: block;
+  text-align: center;
+  color: var(--amarelo-fonte);
+  font-size: 1.5rem;
+  font-style: oblique;
 }
 
 /* CATEGORIAS */
 
 .container-portfolio {
-    margin-top: 64px;
+  margin-top: 64px;
 }
 
-
 .categoria-portfolio h1 {
-    display: block;
-    width: 512px;
-    color: var(--branco2);
-    font-weight: bolder;
-    font-size: 1.3rem;
-    background-color: var(--cinza-escuro-principal);
-    padding: 4px;
+  display: block;
+  width: 512px;
+  color: var(--branco2);
+  font-weight: bolder;
+  font-size: 1.3rem;
+  background-color: var(--cinza-escuro-principal);
+  padding: 4px;
 }
 
 .item-categoria-portfolio a {
-    display: block;
-    width: 300px;
-    transition: .3s;
+  display: block;
+  width: 300px;
+  transition: 0.3s;
 }
 
 .item-categoria-portfolio p {
-    color: var(--branco2);
-    max-width: 300px;
-    margin-top: 8px;
-    margin-bottom: 16px;
+  color: var(--branco2);
+  max-width: 300px;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
-
 
 /* CSS CAMPANHAS  */
 
-#campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
-    display: flex;
-    gap: 8px;
-    margin-top: 8px;
-    margin-bottom: 32px;
+#campanhas,
+#designgrafico,
+#webdesign,
+#audiovisual,
+#cobertura {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
 
 a:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* RESPONSIVO */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  /* TITULO */
 
-/* TITULO */
-
-.titulo-portfolio {
-
+  .titulo-portfolio {
     width: 100vw;
-}
+  }
 
-.titulo-portfolio h1 {
+  .titulo-portfolio h1 {
     font-size: 3rem;
-}
+  }
 
-.titulo-portfolio span {
+  .titulo-portfolio span {
     font-size: 1.1rem;
-}
+  }
 
-/* FIM DO TITULO */
+  /* FIM DO TITULO */
 
-/* CORPO */
+  /* CORPO */
 
-.categoria-portfolio h1 {
+  .categoria-portfolio h1 {
     max-width: 83vw;
-}
+  }
 
-#campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
+  #campanhas,
+  #designgrafico,
+  #webdesign,
+  #audiovisual,
+  #cobertura {
     flex-wrap: nowrap;
     overflow-x: scroll;
-}
-
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  /* TITULO */
 
-/* TITULO */
-
-.titulo-portfolio {
+  .titulo-portfolio {
     width: 100vw;
-}
+  }
 
-.titulo-portfolio h1 {
+  .titulo-portfolio h1 {
     font-size: 3.7rem;
-}
+  }
 
-.titulo-portfolio span {
+  .titulo-portfolio span {
     font-size: 1.1rem;
-}
+  }
 
-/* FIM DO TITULO */
+  /* FIM DO TITULO */
 
-/* CORPO */
+  /* CORPO */
 
-.categoria-portfolio h1 {
+  .categoria-portfolio h1 {
     max-width: 61vw;
-}
+  }
 
-#campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
+  #campanhas,
+  #designgrafico,
+  #webdesign,
+  #audiovisual,
+  #cobertura {
     flex-wrap: nowrap;
     overflow-x: scroll;
-}
-
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  /* CORPO */
 
-/* CORPO */
-
-.categoria-portfolio h1 {
+  .categoria-portfolio h1 {
     max-width: 37vw;
-}
+  }
 
-#campanhas, #designgrafico, #webdesign, #audiovisual, #cobertura {
+  #campanhas,
+  #designgrafico,
+  #webdesign,
+  #audiovisual,
+  #cobertura {
     flex-wrap: nowrap;
     overflow-x: scroll;
-}
-
+  }
 }

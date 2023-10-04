@@ -24,6 +24,22 @@ body {
 
 /* Header */
 
+.botao-sobre {
+    color: inherit;
+}
+
+.botao-habilidades {
+    color: inherit;
+}
+
+.botao-portfolio {
+  color: inherit;
+}
+
+.botao-equipe {
+    color: inherit;
+}
+
 .header-bg {
     background-color: var(--cinza-escuro-principal);
 }
@@ -70,7 +86,8 @@ body {
 /* INTRODUÇÃO */
 
 #introducao {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     width: 100%;
     height: 100vh;
     background-image: url(../IMG/introducaoimagem.jpg);
@@ -85,6 +102,27 @@ body {
     max-width: 50vw;
     font-size: 5vw;
     font-weight: 600;
+  }
+
+  #entre-em-contato {
+    display: flex;
+    height: 60px;
+    width: 300px;
+    border-radius: 90px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #44c254;
+  }
+
+  #entre-em-contato p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--branco-puro);
+  }
+
+  #entre-em-contato img {
+    width: 50px;
   }
 
 /* O QUE FAZEMOS */
