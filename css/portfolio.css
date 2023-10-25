@@ -27,6 +27,7 @@ body {
 
 #menu-portfolio ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
   padding-top: 28px;
