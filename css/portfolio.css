@@ -18,8 +18,35 @@ body {
 
 /* FIM DE HEADER */
 
-.container-menu-portfolio {
-  max-width: 1600px;
+/* MENU PORTFÓLIO */
+
+#menu-portfolio {
+  height: 140px;
+  background-image: linear-gradient(to top, transparent 0%, var(--amarelo-fonte) 80%);
+}
+
+#menu-portfolio ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 28px;
+}
+
+#menu-portfolio p {
+  font-weight: bold;
+  color: var(--cinza-escuro-principal);
+
+}
+
+#menu-portfolio li {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--cinza-fonte);
+}
+
+#menu-portfolio li:hover {
+color: var(--preto-puro);
+
 }
 
 /* TITULO  */
