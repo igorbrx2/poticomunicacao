@@ -102,27 +102,30 @@ body {
     max-width: 50vw;
     font-size: 5vw;
     font-weight: 600;
+    position: relative;
   }
 
   #entre-em-contato {
     display: flex;
-    height: 60px;
-    width: 300px;
+    height: 6.8vh;
+    width: 18.3vw;
     border-radius: 90px;
     gap: 10px;
-    justify-content: center;
     align-items: center;
     background-color: #44c254;
+    position: absolute;
+    margin-top: 83vh;
+    margin-left: 17vh;
   }
 
-  #entre-em-contato p {
-    font-size: 1.3rem;
+  #entre-em-contato a {
+    font-size: 1.1rem;
     font-weight: bold;
     color: var(--branco-puro);
   }
 
   #entre-em-contato img {
-    width: 50px;
+    width: 30px;
   }
 
 /* O QUE FAZEMOS */
