@@ -16,93 +16,108 @@ body {
 /* livro metalurgicos parte 1 */
 
 #metalurgicos1 img {
-  width: 400px;
+  width: 500px;
   z-index: 2;
 }
 
-#metalurgicos1 p {
-  color: var(--cinza-titulo-grande);
-  font-size: 1.1rem;
-  margin-left: 150px;
-  margin-bottom: 200px;
+.imagem-livro-1 {
+  z-index: 2;
+}
+
+.olivronarra { /* div 1 */
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-right: 650px;
+  margin-top: 50px;
+  z-index: 1;
 }
 
 .linha-m1 {
-  width: 700px;
+  width: 500px;
   border-bottom: solid 5px var(--amarelo-fonte);
-  position: absolute;
-  z-index: 1;
-  left: 27%;
-  top: 88%;
+  margin-top: 15px;
 }
 
 #metalurgicos1 {
-  margin-top: 64px;
   display: flex;
+
   justify-content: center;
-  align-items: center;
+  margin-left: 300px;
+  margin-top: 64px;
 }
 
 /* livro metalurgicos parte 2 */
 
-#metalurgicos2 img {
-  width: 650px;
-  z-index: 2;
-  position: relative;
-}
-
-#metalurgicos2 p {
-  color: var(--cinza-titulo-grande);
-  font-size: 1.1rem;
-  text-align: end;
-  margin-right: 100px;
-  margin-bottom: 50px;
-}
-
 #metalurgicos2 {
-    margin-top: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+  display: flex;
+  justify-content: center;
+  margin-right: 250px;
+}
+
+.imagem-livro-2 { /* div 1 */
+  display: flex;
+  align-items: center;
+}
+
+.imagem-livro-2 img {
+  width: 650px;
+  position: relative;
+  z-index: 2;
 }
 
 .linha-m2 {
-    width: 455px;
-    border-bottom: solid 5px var(--amarelo-fonte);
-    position: absolute;
-    z-index: 1;
-    top: 142%;
-    right: 28%;
+  width: 400px;
+  border-bottom: solid 5px var(--amarelo-fonte);
+  z-index: 1;
+  position: absolute;
+  margin-bottom: 384px;
+  margin-left: 414px;
+}
+
+.publicadoem2021 { /* div 2 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 14px;
+  margin-left: 165px;
+}
+
+.publicadoem2021 p {
+  color: var(--cinza-titulo-grande);
+  font-size: 1.1rem;
+  text-align: end;
+  position: absolute;
+  margin-top: 230px;
 }
 
 .linha2-m2 {
-    height: 220px;
-    border-left: solid 5px var(--amarelo-fonte);
-    position: absolute;
-    right: 28%;
-    top: 142%;
+  height: 220px;
+  border-left: solid 5px var(--amarelo-fonte);
+  position: relative;
 }
 
 /* livro metalurgicos parte 3 */
 
 #metalurgicos3 img {
-    width: 650px;
+  width: 700px;
 }
 
 #metalurgicos3 {
-    display: flex;
-    justify-content: end;
-    margin-right: 200px;
-    margin-top: 32px;
-    margin-bottom: 128px;
+  display: flex;
+  justify-content: center;
+  margin-left: 270px;
+  margin-top: 32px;
+  margin-bottom: 128px;
 }
 
 /* categoria design gráfico */
 
 #designgrafico p {
-    color: var(--cinza-titulo-grande);
+  color: var(--cinza-titulo-grande);
+  font-weight: bold;
 }
 
 #designgrafico {
-    margin-bottom: 64px;
+  margin-bottom: 64px;
 }
