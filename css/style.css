@@ -385,6 +385,13 @@ body {
         margin-right: auto;
       }
 
+      #entre-em-contato {
+        height: 4.8vh;
+        width: 68.3vw;
+        margin-top: 60vh;
+        margin-left: 7vh;
+      }
+
       /* O QUE FAZEMOS */ 
 
       .linha-separacao {
@@ -569,6 +576,13 @@ body {
         margin-right: auto;
       }
 
+      #entre-em-contato {
+        height: 5.8vh;
+        width: 50.3vw;
+        margin-top: 63vh;
+        margin-left: 9vh;
+      }
+
       /* O QUE FAZEMOS */ 
 
     .linha-separacao {
@@ -698,6 +712,13 @@ body {
     max-width: 60vw;
     font-size: 6.5vw;
     font-weight: 600;
+  }
+
+  #entre-em-contato {
+    height: 5.8vh;
+    width: 32.3vw;
+    margin-top: 65vh;
+    margin-left: 8vh;
   }
 
 /* FIM DE INTRODUÇÃO */
