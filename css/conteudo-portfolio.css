@@ -266,3 +266,80 @@ display: none;
 
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+
+/* menu */
+
+#menu-portfolio p {
+  display: none;
+}
+
+/* livro metalurgicos parte 1  */
+
+#metalurgicos1 {
+  flex-direction: column-reverse;
+  margin-left: 15px;
+  margin-top: 64px;
+}
+
+#metalurgicos1 img {
+  width: 250px;
+}
+
+.olivronarra p {
+  width: 350px;
+  font-size: 1rem;
+}
+.linha-m1 {
+display: none;
+}
+
+.olivronarra {
+  margin-top: 0px;
+  position: inherit;
+}
+
+/* livro metalurgicos parte 2 */
+
+#metalurgicos2 {
+  flex-direction: column-reverse;
+  margin-top: 32px;
+  margin-right: 30px;
+}
+
+.imagem-livro-2 img {
+position: inherit;
+width: 400px;
+margin-left: 15px;
+}
+
+.linha-m2 {
+display: none;
+}
+
+.linha2-m2 {
+display: none;
+}
+
+.publicadoem2021 p {
+  text-align: start;
+  width: 340px;
+  font-size: 1rem;
+  margin-top: 230px;
+  margin-right: 115px;
+}
+
+/* livro metalurgicos parte 3 */
+
+#metalurgicos3 img {
+  width: 400px;
+}
+
+#metalurgicos3 {
+  margin-top: 184px;
+  margin-left: 20px;
+  margin-bottom: 64px;
+}
+
+}
+
