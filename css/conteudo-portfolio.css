@@ -121,3 +121,75 @@ body {
 #designgrafico {
   margin-bottom: 64px;
 }
+
+/* RESPONSIVIDADE DESIGN GRAFICO */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+/* menu */
+
+#menu-portfolio p {
+  display: none;
+}
+
+/* livro metalurgicos parte 1  */
+
+#metalurgicos1 img {
+  width: 300px;
+}
+
+.olivronarra p {
+  font-size: 1rem;
+}
+.linha-m1 {
+  width: 370px;
+}
+
+.olivronarra {
+  margin-right: 600px;
+}
+
+/* livro metalurgicos parte 2 */
+
+#metalurgicos2 {
+  margin-right: 180px;
+}
+
+.imagem-livro-2 {
+  margin-left: 50px;
+}
+
+.linha-m2 {
+  width: 300px;
+  margin-left: 220px;
+  margin-bottom: 200px;
+}
+
+.linha2-m2 {
+  height: 120px;
+  margin-right: 50px;
+}
+
+.publicadoem2021 p {
+  width: 360px;
+  font-size: 1rem;
+  margin-top: 130px;
+  margin-right: 150px;
+}
+
+/* livro metalurgicos parte 3 */
+
+#metalurgicos3 img {
+  width: 450px;
+}
+
+#metalurgicos3 {
+  margin-top: 64px;
+  margin-left: 220px;
+  margin-bottom: 64px;
+}
+
+
+
+}
+
