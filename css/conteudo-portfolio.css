@@ -284,10 +284,12 @@ display: none;
 
 #metalurgicos1 img {
   width: 250px;
+  margin-left: 50px;
 }
 
 .olivronarra p {
   width: 350px;
+  margin-left: 25px;
   font-size: 1rem;
 }
 .linha-m1 {
@@ -323,9 +325,9 @@ display: none;
 
 .publicadoem2021 p {
   text-align: start;
-  width: 340px;
+  width: 360px;
   font-size: 1rem;
-  margin-top: 230px;
+  margin-top: 280px;
   margin-right: 115px;
 }
 

@@ -95,27 +95,25 @@ body {
 }
 
 #texto-intro {
-    padding-top: 15vh;
+    margin: 15vh;
     margin-right: 44vw;
     line-height: 1.3;
     color: var(--amarelo-fonte);
     max-width: 50vw;
     font-size: 5vw;
     font-weight: 600;
-    position: relative;
   }
 
   #entre-em-contato {
     display: flex;
-    height: 6.8vh;
+    height: 4.8vh;
     width: 18.3vw;
     border-radius: 90px;
     gap: 10px;
     align-items: center;
     background-color: #44c254;
-    position: absolute;
-    margin-top: 83vh;
-    margin-left: 17vh;
+    margin-left: 10vw;
+    margin-bottom: 90vh;
   }
 
   #entre-em-contato a {
