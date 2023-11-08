@@ -121,6 +121,20 @@ a:hover {
 /* RESPONSIVO */
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+  /* MENU */
+  #menu-portfolio {
+    height: 300px;}
+
+  #menu-portfolio p {
+    display: none;
+  }
+
+  #menu-portfolio a {
+    color: var(--cinza-bg);
+  }
+  /* FIM DO MENU */
+
   /* TITULO */
 
   .titulo-portfolio {
@@ -154,6 +168,20 @@ a:hover {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  
+  /* MENU */
+  #menu-portfolio {
+    height: 180px;}
+
+  #menu-portfolio p {
+    display: none;
+  }
+
+  #menu-portfolio a {
+    color: var(--cinza-bg);
+  }
+  /* FIM DO MENU */
+  
   /* TITULO */
 
   .titulo-portfolio {
