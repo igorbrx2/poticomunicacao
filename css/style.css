@@ -180,8 +180,30 @@ body {
     justify-content:  space-between;
 }
 
+/* O QUE FALARAM */
 
-/* FIM DA INTRODUÇÃO */
+.oquefalaram img {
+    width: 100px;
+    grid-column: 1;
+}
+
+.oquefalaram p {
+    grid-column: 2;
+}
+
+.oquefalaram {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#oquefalaram {
+    background-color: var(--cinza-bg2);
+}
+
+#oquefalaram h1 {
+    color: var(--cinza-escuro-principal);
+    margin-top: 16px;
+}
 
 /* TRABALHAMOS PARA  */
 
