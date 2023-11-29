@@ -46,13 +46,17 @@ html {
     color: var(--cinza-titulo-grande);
 }
 
+.retangulo-amarelo {
+height: 230px;
+z-index: 1;
+}
 
 .historiamanifesto {
     display: flex;
     flex-wrap: wrap;
     color: var(--cinza-fonte);
     gap: 90px;
-    padding-top: 32px;
+    padding-top: 100px;
     margin: 0 auto;
     padding-bottom: 530px;
     position: relative;
@@ -83,7 +87,7 @@ html {
 
 .corpo-manifesto {
     height: 640px;
-    margin-top: 2.5rem;
+    margin-top: 5.5rem;
     display: grid;
     grid-template-columns: 25rem 1.25rem 25rem;
     grid-template-areas:

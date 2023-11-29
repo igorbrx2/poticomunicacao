@@ -42,6 +42,9 @@ body {
 
 .header-bg {
     background-color: var(--cinza-escuro-principal);
+    width: 100%;
+    position: fixed;
+    z-index: 3;
 }
 
 #logo {
