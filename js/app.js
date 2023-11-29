@@ -12,3 +12,5 @@ $(".historiamanifesto a").click(function (e) {
     500
   );
 });
+
+
