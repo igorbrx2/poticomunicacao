@@ -182,27 +182,32 @@ body {
 
 /* O QUE FALARAM */
 
-.oquefalaram img {
+.depoimentofoto img {
     width: 100px;
-    grid-column: 1;
 }
 
-.oquefalaram p {
-    grid-column: 2;
+.depoimentodescricao p {
+    width: 80ch;
+    padding-top: 16px;
 }
 
 .oquefalaram {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    gap: 64px;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
 }
 
 #oquefalaram {
+    height: 256px;
+    margin-top: 32px;
     background-color: var(--cinza-bg2);
 }
 
 #oquefalaram h1 {
     color: var(--cinza-escuro-principal);
-    margin-top: 16px;
+    padding-top: 16px;
 }
 
 /* TRABALHAMOS PARA  */
