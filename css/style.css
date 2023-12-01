@@ -456,6 +456,44 @@ body {
         padding: 0 30px;
     }
 
+    /* O QUE FALARAM */
+
+    #oquefalaram h1 {
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    #oquefalaram {
+        height: 480px;
+    }
+
+    .oquefalaram {
+        display: grid;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .depoimentofoto {
+        width: 100px;
+        align-self: center;
+        justify-self: center;
+        place-self: center;
+    }
+
+    .depoimentodescricao h2 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-top: 3px;
+        text-align: center;
+    }
+
+    .depoimentodescricao p {
+        width: 30ch;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
     /* TRABALHAMOS PARA  */
 
     .seta-pequena {
@@ -645,6 +683,44 @@ body {
         margin-bottom: 64px;
     }
 
+    /* O QUE FALARAM */
+
+    #oquefalaram h1 {
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    #oquefalaram {
+        height: 380px;
+    }
+
+    .oquefalaram {
+        display: grid;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .depoimentofoto {
+        width: 100px;
+        align-self: center;
+        justify-self: center;
+        place-self: center;
+    }
+
+    .depoimentodescricao h2 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-top: 3px;
+        text-align: center;
+    }
+
+    .depoimentodescricao p {
+        width: 43ch;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
     /* TRABALHAMOS PARA */
 
     .seta-pequena {
@@ -763,6 +839,41 @@ body {
 }
 
 /* FIM DE O QUE FAZEMOS */
+
+/* O QUE FALARAM */
+
+.depoimentofoto img {
+    width: 150px;
+}
+
+.depoimentodescricao p {
+    width: 55ch;
+    padding-top: 16px;
+}
+
+.depoimentodescricao h2 {
+    width: 25ch;
+}
+
+.oquefalaram {
+    display: flex;
+    gap: 30px;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+#oquefalaram {
+    height: 300px;
+    margin-top: 32px;
+    background-color: var(--cinza-bg2);
+}
+
+#oquefalaram h1 {
+    color: var(--cinza-escuro-principal);
+    padding-top: 16px;
+    margin-left: 10px;
+}
 
 /* TRABALHAMOS PARA */
 
