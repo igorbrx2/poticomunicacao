@@ -224,24 +224,6 @@ body {
     padding-bottom: 32px;
 }
 
-.seta-pequena {
-    padding-top: 8px;
-    padding-bottom: 16px;
-    animation: go-back 1s infinite alternate;
-    position: absolute;
-    bottom: -1px;
-    left: 210px;
-}
-
-@keyframes go-back {
-    from {
-        transform: translateX(60px);
-    }
-    to {
-        transform: translateX(0px);
-    }
-    
-}
 
 #clientes {
     display: flex;
