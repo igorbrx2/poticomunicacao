@@ -108,19 +108,20 @@ body {
 #metalurgicos3 {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-left: 270px;
   margin-top: 32px;
   margin-bottom: 128px;
 }
 
-/* categoria design gráfico */
+/* categoria do portfolio */
 
-#designgrafico p {
+.categoria-portfolio p {
   color: var(--cinza-titulo-grande);
   font-weight: bold;
 }
 
-#designgrafico {
+.categoria-portfolio {
   margin-bottom: 64px;
 }
 
