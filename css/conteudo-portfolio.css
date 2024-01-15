@@ -114,6 +114,24 @@ body {
   margin-bottom: 128px;
 }
 
+.site-incorporado {
+  display: block;
+  height: 600px;
+  width: 1200px;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-incorporado {
+  display: block;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* categoria do portfolio */
 
 .categoria-portfolio p {
