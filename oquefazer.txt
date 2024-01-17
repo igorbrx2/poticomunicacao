@@ -1,0 +1,27 @@
+LISTA DE RESOLUÇÕES:
+
+* PORTFÓLIO * 
+
+1 - Ajustar os menus na página de portfólio geral e nas subpáginas;
+2 - Criar a animação de conteúdo nas categorias para deixar tudo pronto, esperando apenas as imagens
+para substituir;
+3 - Testar título nas categorias de portfólio que são por iframe (e nas que não são também);
+4 - Checar responsividade após tudo feito e corrigir;
+
+* INDEX * 
+
+1 - Alterar as imagens dos clientes para imagens melhores e criar o slide infinito;
+2 - Adicionar depoimentos reais (pelo menos três) e colocar para passar sozinho;
+3 - Tornar as habilidades clicáveis e abrir uma janela sobreposta a pagina principal com
+a habilidade em questão;
+4 - Adicionar flutuante de redes sociais (testar lado esquerdo e direito);
+5 - Adicionar seta flutuante no lado inferior direito para retornar ao topo da pagina
+quando clicada;
+6 - Checar responsividade após tudo feito e corrigir;
+
+*** TESTE GERAL ***
+
+Após teste geral próprio, enviar para teste e feedback de 10 usuários comuns, anotar as 
+demandas e corrigir antes de lançar.
+
+LANÇAMENTO TEM QUE SER ATÉ 1o DE MARÇO.
