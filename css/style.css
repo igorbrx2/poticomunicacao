@@ -210,6 +210,23 @@
     padding-top: 16px;
 }
 
+.slide {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide > * {
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+
+.slide > .active {
+    position: relative;
+    opacity: 1;
+}
+
 /* TRABALHAMOS PARA  */
 
 .trabalhamospara-bg {
