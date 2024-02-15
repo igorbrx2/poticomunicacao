@@ -178,6 +178,10 @@
 
 /* O QUE FALARAM */
 
+.oquefalaram-bg {
+    background-color: var(--cinza-bg2);
+}
+
 .depoimentofoto img {
     width: 100px;
 }
