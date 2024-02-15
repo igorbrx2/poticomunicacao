@@ -21,8 +21,9 @@ body {
 /* MENU PORTFÓLIO */
 
 #menu-portfolio {
-  height: 140px;
-  background-image: linear-gradient(to top, transparent 0%, var(--amarelo-fonte) 80%);
+  padding-top: 64px;
+  height: 190px;
+  background-image: linear-gradient(to top, transparent 0%, var(--amarelo-fonte) 40%);
 }
 
 #menu-portfolio ul {
@@ -46,7 +47,7 @@ body {
 }
 
 #menu-portfolio li:hover {
-color: var(--preto-puro);
+color: var(--cinza-titulo-grande);
 
 }
 

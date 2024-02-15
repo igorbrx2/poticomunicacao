@@ -1,20 +1,12 @@
 body {
     background-color: var(--cinza-bg2);
-    height: 1000px;
+    height: 100%
 }
 
 /* HEADER */
 
-.botao-sobre {
+.botao-sobre .botao-habilidades .botao-portfolio {
     color: inherit;
-}
-
-.botao-habilidades {
-    color: inherit;
-}
-
-.botao-portfolio {
-  color: inherit;
 }
 
 .botao-equipe {
@@ -53,11 +45,8 @@ body {
     text-align: center;
     display: block;
     font-weight: 900;
-    margin-bottom: 32px;
+    padding-top: 96px;
     text-transform: uppercase;
     color: var(--cinza-escuro-principal);
 }
 
-#equipe {
-    margin-top: 32px;
-}
