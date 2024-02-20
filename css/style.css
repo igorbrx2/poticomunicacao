@@ -244,31 +244,14 @@
 
 #clientes {
     display: flex;
-    flex-wrap: nowrap;
     overflow-x: auto;
-    overflow-y: hidden;
+    scroll-behavior: smooth;
     max-width: 1200px;
     height: 280px;
     padding-bottom: 64px;
     align-content: center;
     justify-content: space-between;
-    scrollbar-width:initial;
-    scrollbar-color: var(--cinza-titulo-grande) var(--cinza-escuro-principal);
-}
-
-#clientes::-webkit-scrollbar {
-    height: 5px;
-    border-radius: 5px;
-    background-color: var(--cinza-titulo-grande);
-}
-
-#clientes::-webkit-scrollbar:hover {
-    overflow-x: auto;
-}
-
-#clientes::-webkit-scrollbar-thumb {
-    border-radius: 2px;
-    background-color: var(--cinza-fonte);
+    overflow: hidden;
 }
 
 .cliente a {
@@ -276,6 +259,40 @@
     width: 256px;
     margin-bottom: 1px;
 }
+
+.pre-btn,
+.nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    background-color: var(--cinza-escuro-principal);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.pre-btn {
+    left: 0;
+}
+
+.nxt-btn {
+    right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+    opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+    opacity: 1;
+}
+
 
 
 /* FIM DE TRABALHAMOS PARA */
