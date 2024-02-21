@@ -40,7 +40,7 @@
     background-color: var(--cinza-escuro-principal);
     width: 100%;
     position: fixed;
-    z-index: 3;
+    z-index: 999;
 }
 
 #logo {
@@ -81,6 +81,37 @@
 
 
 /* FIM DO HEADER  */
+
+/* BOTAO VOLTA AO TOPO */
+
+.scrolltop {
+    outline: none;
+    border: 0;
+    background-color: var(--branco2);
+    width: 60px;
+    height: 60px;
+    padding: 2px;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease;
+    -webkit-box-shadow: 9px 10px 15px -6px rgba(0,0,0,0.51);
+    -moz-box-shadow: 9px 10px 15px -6px rgba(0,0,0,0.51);
+    box-shadow: 9px 10px 15px -6px rgba(0,0,0,0.51);
+}
+
+.scrolltop.active {
+    opacity: 1;
+    visibility: visible;
+}
 
 /* INTRODUÇÃO */
 
