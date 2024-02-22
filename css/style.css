@@ -113,6 +113,45 @@
     visibility: visible;
 }
 
+/* FLUTUANTE REDES */
+
+.redes-container {
+    position: fixed;
+    z-index: 9999;
+    top: 300px;
+    display: grid;
+    padding: 4px;
+    background-color: var(--branco2);
+    border-radius: 0 15px 15px 0;
+    -webkit-box-shadow: 9px 10px 15px -6px rgba(0,0,0,0.51);
+    -moz-box-shadow: 9px 10px 15px -6px rgba(0,0,0,0.51);
+    box-shadow: 9px 10px 15px -6px rgba(0,0,0,0.51);
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.redes-container img {
+    width: 40px;
+}
+
+.redes-container img:hover {
+    width: 48px;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
 /* INTRODUÇÃO */
 
 #introducao {
@@ -166,9 +205,10 @@
 }
 
 #oquefazemos-container {
-    height: 256px;
+    max-height: 512px;
     background-color: var(--cinza-escuro-principal);
     margin-top: 32px;
+    padding-bottom: 32px;
     z-index: 1000;
 }
 
@@ -195,7 +235,11 @@
 
 #oquefazemos img {
     display: block;
-    max-width: 256px;
+    cursor: pointer;
+}
+
+#oquefazemos img:hover {
+    width: 110px;
 }
 
 #oquefazemos {

@@ -55,7 +55,7 @@ function rotateSlide() {
 }
 }
 
-slider('depoimentos', 4000);
+slider('depoimentos', 2000);
 
 // Slider (Trabalhamos para)
 
