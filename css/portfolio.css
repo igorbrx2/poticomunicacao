@@ -51,6 +51,10 @@ color: var(--cinza-titulo-grande);
 
 }
 
+#menu-portfolio a.active {
+  color: var(--preto-puro);
+}
+
 /* TITULO  */
 
 .titulo-portfolio {

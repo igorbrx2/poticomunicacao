@@ -76,3 +76,23 @@ clientes.forEach((item, i) => {
   })
 })
 
+// PAGINA AUDIOVISUAL
+
+$(document).ready(function(){
+
+var classActive = 'active';
+
+$('#audiovisual a, .video-incorporado').first().addClass(classActive);
+
+$('#audiovisual a').click(function(e){
+  e.preventDefault();
+  var itemId = $(this).attr('href');
+
+  $('#audiovisual a, .video-incorporado').removeClass(classActive);
+
+  $(this).addClass(classActive);
+  $(itemId).addClass(classActive);
+});
+});
+
+

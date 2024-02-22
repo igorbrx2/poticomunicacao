@@ -1,0 +1,26 @@
+
+/* MENU */
+
+.botao-audiovisual {
+    color: var(--preto-puro);
+}
+
+#audiovisual a.active {
+    opacity: .5;
+}
+
+.video-incorporado {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.video-incorporado.active {
+    opacity: 1;
+    transition: .3s;
+    visibility: visible;
+    position: relative;
+}
