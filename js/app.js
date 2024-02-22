@@ -76,23 +76,29 @@ clientes.forEach((item, i) => {
   })
 })
 
-// PAGINA AUDIOVISUAL
+// MUDAR OBJETO PORTFÓLIO NAS CATEGORIAS
 
-$(document).ready(function(){
+$('[data-group').each(function(){
+  var $allTarget = $(this).find('[data-target]'),
+      $allClick = $(this).find('[data-click]'),
+      activeClass = 'active';
 
-var classActive = 'active';
+      $allTarget.first().addClass(activeClass);
+      $allClick.first().addClass(activeClass);
 
-$('#audiovisual a, .video-incorporado').first().addClass(classActive);
+      $allClick.click(function(e){
+        e.preventDefault();
 
-$('#audiovisual a').click(function(e){
-  e.preventDefault();
-  var itemId = $(this).attr('href');
+        var id = $(this).data('click'),
+            $target = $('[data-target="' + id + '"]');
 
-  $('#audiovisual a, .video-incorporado').removeClass(classActive);
+      $allClick.removeClass(activeClass);
+      $allTarget.removeClass(activeClass);
 
-  $(this).addClass(classActive);
-  $(itemId).addClass(classActive);
-});
+      $target.addClass(activeClass);
+      $(this).addClass(activeClass);
+          
+      });
 });
 
 

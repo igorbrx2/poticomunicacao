@@ -67,32 +67,34 @@
     <!-- MENU PORTFOLIO -->
     <nav id="menu-portfolio">
       <ul>
-        <li><a class="botao-campanhas" href="./pagina-campanhas.html">CAMPANHAS</a></li>
+        <li><a href="./pagina-campanhas.html">CAMPANHAS</a></li>
         <p>|</p>
         <li>
-          <a class="botao-designgrafico" href="./pagina-design.html"
+          <a href="./pagina-design.html"
             >DESIGN GRÁFICO</a
           >
         </li>
         <p>|</p>
-        <li><a class="botao-webdesign" href="./pagina-webdesign.html">WEB DESIGN</a></li>
+        <li><a href="./pagina-webdesign.html">WEB DESIGN</a></li>
         <p>|</p>
-        <li><a class="botao-audiovisual" href="./pagina-audiovisual.html">AUDIOVISUAL</a></li>
+        <li><a href="./pagina-audiovisual.html">AUDIOVISUAL</a></li>
         <p>|</p>
-        <li><a class="botao-cobertura" href="./pagina-coberturas.html">COBERTURA</a></li>
+        <li><a style="color: var(--preto-puro);" href="./pagina-coberturas.html">COBERTURA</a></li>
       </ul>
     </nav>
     <!-- FIM MENU PORTFOLIO -->
 
     <!-- CORPO -->
 
-    <iframe class="video-incorporado" width="1080" height="720" src="https://www.youtube.com/embed/OUgZLt4Bklc?si=R2OnWzF2PETqV3YG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="dg-cbtr"  data-group="coberturas">
 
-    <iframe class="video-incorporado" width="1080" height="720" src="https://www.youtube.com/embed/ePEyHHtrxB4?si=dx68Y9z2-6Rsy_N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="video-incorporado" data-target="sindsaude-cbtr" width="1080" height="720" src="https://www.youtube.com/embed/OUgZLt4Bklc?si=R2OnWzF2PETqV3YG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    <iframe class="video-incorporado" width="1080" height="720" src="https://www.youtube.com/embed/lSzt1VLEZ9Y?si=TwflhABY-cPQHx3V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="video-incorporado" data-target="estacaodocordel" width="1080" height="720" src="https://www.youtube.com/embed/ePEyHHtrxB4?si=dx68Y9z2-6Rsy_N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    <iframe class="video-incorporado" width="1080" height="720" src="https://www.youtube.com/embed/fv_mqDXAAuA?si=9ovqA9CSHk9l4bR9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="video-incorporado" data-target="carcara" width="1080" height="720" src="https://www.youtube.com/embed/lSzt1VLEZ9Y?si=TwflhABY-cPQHx3V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe class="video-incorporado" data-target="dodora" width="1080" height="720" src="https://www.youtube.com/embed/fv_mqDXAAuA?si=9ovqA9CSHk9l4bR9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
     <!-- FIM DE CORPO -->
 
@@ -102,7 +104,7 @@
         <h1>Cobertura</h1>
         <div id="cobertura">
           <div class="item-categoria-portfolio">
-            <a href="./pagina-coberturas.html"
+            <a href="./pagina-coberturas.html" data-click="sindsaude-cbtr"
               ><img
                 src="./IMG/Portfolio/miniaturas/design/transmissaodebate.jpg"
                 alt=""
@@ -111,7 +113,7 @@
           </div>
 
           <div class="item-categoria-portfolio">
-            <a href="https://www.youtube.com/watch?v=ePEyHHtrxB4"
+            <a href="https://www.youtube.com/watch?v=ePEyHHtrxB4" data-click="estacaodocordel"
               ><img
                 src="./IMG/Portfolio/miniaturas/design/transmissaomulheresnocordel.jpg"
                 alt=""
@@ -120,7 +122,7 @@
           </div>
 
           <div class="item-categoria-portfolio">
-            <a href="https://www.youtube.com/watch?v=lSzt1VLEZ9Y"
+            <a href="https://www.youtube.com/watch?v=lSzt1VLEZ9Y" data-click="carcara"
               ><img
                 src="./IMG/Portfolio/miniaturas/design/transmissaopremiocarcara.jpg"
                 alt=""
@@ -130,7 +132,7 @@
 
           <div class="item-categoria-portfolio">
             <a
-              href="https://www.youtube.com/watch?v=fv_mqDXAAuA&ab_channel=PotiComunica%C3%A7%C3%A3o"
+              href="https://www.youtube.com/watch?v=fv_mqDXAAuA&ab_channel=PotiComunica%C3%A7%C3%A3o" data-click="dodora"
               ><img
                 src="./IMG/Portfolio/miniaturas/design/transmissaododora.jpg"
                 alt=""
@@ -139,6 +141,7 @@
           </div>
         </div>
       </div>
+    </div>
 
     <!-- FOOTER -->
 

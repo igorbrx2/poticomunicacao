@@ -7,15 +7,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* HEADER */
-
-.botao-sobre {
-    color: var(--amarelo-fonte);
-}
-
-
-/* FIM DE HEADER */
-
 /* ESTILIZAÇAO DO MANIFESTO */
 
 #manifesto {

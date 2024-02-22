@@ -20,22 +20,6 @@
 
 /* Header */
 
-.botao-sobre {
-    color: inherit;
-}
-
-.botao-habilidades {
-    color: inherit;
-}
-
-.botao-portfolio {
-  color: inherit;
-}
-
-.botao-equipe {
-    color: inherit;
-}
-
 .header-bg {
     background-color: var(--cinza-escuro-principal);
     width: 100%;

@@ -3,18 +3,6 @@ body {
     height: 100%
 }
 
-/* HEADER */
-
-.botao-sobre .botao-habilidades .botao-portfolio {
-    color: inherit;
-}
-
-.botao-equipe {
-    color: var(--amarelo-fonte);
-}
-
-/* FIM DE HEADER */
-
 .integrante img {
     max-width: 250px;
 }

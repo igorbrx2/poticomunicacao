@@ -2,21 +2,6 @@ body {
   background-color: var(--preto-puro);
 }
 
-/* HEADER */
-
-.botao-sobre {
-  color: inherit;
-}
-
-.botao-habilidades {
-  color: inherit;
-}
-
-.botao-portfolio {
-  color: var(--amarelo-fonte);
-}
-
-/* FIM DE HEADER */
 
 /* MENU PORTFÓLIO */
 

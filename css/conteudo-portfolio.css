@@ -3,9 +3,29 @@ body {
   height: auto;
 }
 
-
-
 /* CORPO */
+
+/* ESTILIZAÇÃO DE DATA TARGETS E CLICKS COM ACTIVE E SEM */
+
+.dg-cbtr, .dg-audiovisual, .dg-webdsgn {
+  margin-top: -80px;
+}
+
+[data-target] {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+}
+
+[data-target].active {
+  opacity: 1;
+  transition: .3s;
+  visibility: visible;
+  position: relative;
+}
+
+/* FIM DA ESTILIZAÇÃO DE DATA TARGETS E CLICKS COM ACTIVE E SEM */
 
 /* livro metalurgicos parte 1 */
 

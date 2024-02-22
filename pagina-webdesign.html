@@ -75,7 +75,7 @@
           >
         </li>
         <p>|</p>
-        <li><a class="botao-webdesign" href="./pagina-webdesign.html">WEB DESIGN</a></li>
+        <li><a class="botao-webdesign" style="color: var(--preto-puro);" href="./pagina-webdesign.html">WEB DESIGN</a></li>
         <p>|</p>
         <li><a class="botao-audiovisual" href="./pagina-audiovisual.html">AUDIOVISUAL</a></li>
         <p>|</p>
@@ -85,9 +85,14 @@
     <!-- FIM MENU PORTFOLIO -->
 
     <!-- CORPO -->
-    <iframe class="site-incorporado" src="https://atens-sn.org.br/" frameborder="0"></iframe>
 
-    <iframe class="site-incorporado" src="https://eudefendoapetrobras.com.br/" frameborder="0"></iframe>
+    <div class="dg-webdsgn" data-group="webdesign">
+
+    <iframe class="site-incorporado" data-target="atens" src="https://atens-sn.org.br/" frameborder="0"></iframe>
+
+    <iframe class="site-incorporado" data-target="petro" src="https://eudefendoapetrobras.com.br/" frameborder="0"></iframe>
+
+    <iframe class="site-incorporado" data-target="ilaese" src="https://ilaese.org.br/" frameborder="0"></iframe>
     
     <!-- FIM DE CORPO -->
 
@@ -97,27 +102,28 @@
       <h1>Web Design</h1>
       <div id="webdesign">
         <div class="item-categoria-portfolio">
-          <a href="https://www.atens-sn.org.br/"
+          <a href="https://www.atens-sn.org.br/" data-click="atens"
             ><img src="./IMG/Portfolio/miniaturas/design/siteatens.jpg" alt=""
           /></a>
           <p>ATENS</p>
         </div>
 
         <div class="item-categoria-portfolio">
-          <a href="https://eudefendoapetrobras.com.br/"
+          <a href="https://eudefendoapetrobras.com.br/" data-click="petro"
             ><img src="./IMG/Portfolio/miniaturas/campanhas/petro.jpg" alt=""
           /></a>
           <p>Eu defendo a Petrobrás</p>
         </div>
 
         <div class="item-categoria-portfolio">
-          <a href="http://ilaese.org.br/"
+          <a href="http://ilaese.org.br/" data-click="ilaese"
             ><img src="./IMG/Portfolio/miniaturas/design/siteilaese.jpg" alt=""
           /></a>
           <p>ILAESE</p>
         </div>
       </div>
     </div>
+  </div>
 
     <!-- FOOTER -->
 
