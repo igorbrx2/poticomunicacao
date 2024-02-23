@@ -53,29 +53,32 @@ body {
 /* bloco 2 */
 
 .linha2 {
-  width: 325px;
-  right: 480px;
-  top: 655px;
+  width: 350px;
+  right: 200px;
+  top: 10px;
   position: absolute;
   border-bottom: 4px solid var(--amarelo-fonte);
 }
 
 .linha3 {
   height: 150px;
-  right: 480px ;
-  top: 655px;
+  right: 200px ;
+  top: 10px;
   position: absolute;
   border-left: 4px solid var(--amarelo-fonte);
 }
 
 .dsgn-ctt-img2 img {
   display: block;
-  position: relative;
   width: 550px;
 }
 
 .dsgn-ctt2-div p {
   padding-top: 200px;
+}
+
+.dsgn-ctt2-div {
+  position: relative;
 }
 
 .dsgn-ctt2 {
@@ -88,7 +91,7 @@ body {
 /* bloco 3 */
 .dsgn-ctt3 {
   display: flex;
-  padding-right: 300px;
+  padding-right: 400px;
   padding-bottom: 64px;
   justify-content: end;
   align-items: center;
