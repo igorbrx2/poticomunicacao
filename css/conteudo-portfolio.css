@@ -31,7 +31,7 @@ body {
 
 /* bloco 1 */
   .linha1 {
-    width: 400px;
+    width: 600px;
     position: absolute;
     padding-top: 15px;
     border-bottom: 4px solid var(--amarelo-fonte);
@@ -83,7 +83,6 @@ body {
 
 .dsgn-ctt2 {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
 }
 /* fim do bloco 2 */
@@ -101,9 +100,11 @@ body {
   display: block;
   width: 550px;
 }
-
+/* fim do bloco 3 */
 
 /* FIM DE DESIGN */
+
+
 
 
 /* SITES E VIDEOS INCORPORADOS */
